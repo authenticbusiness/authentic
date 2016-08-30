@@ -31,16 +31,20 @@
   {{#product_page}}
   {{! This block is rendered when displaying a single product }}
           {{#product}}
+          <section class="product">
           <img id="product" src="http://authentic.website/shop/{{title}}.svg">
   <!-- {{price_tag}} -->
   <!-- {{description}} -->
                   {{! The #add_to_cart block is only rendered if the product is in stock }}
+                  <div class="buttons">
                   {{#add_to_cart}}
                   {{#variations_select}}{{/variations_select}}
                   {{#add_to_cart_button}}
                   {{#lang}}Add to cart{{/lang}}
                   {{/add_to_cart_button}}
                   {{/add_to_cart}}
+                  </div>
+          </section>
           {{/product}}
 
   {{/product_page}}

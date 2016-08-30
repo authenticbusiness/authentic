@@ -28,7 +28,7 @@ section.left, section.right {
 }
 
 section.right {
-	background: grey;
+	background: white;
 }
 
 .helper {
@@ -50,18 +50,14 @@ img {
   margin-bottom:50px;
 }*/
 
-ul {
-  list-style:none;
-   padding-left:0;
-}
-
 a {
   text-decoration: none;
+	cursor: pointer;
 }
 
 section.product {
 	height: 100%;
-	background: grey;
+	background: white;
 }
 
 img#product {
@@ -74,7 +70,6 @@ img#product {
 section.product div.buttons {
 	text-align: center;
 }
-
 
 
 @media only screen and (max-width : 700px) {

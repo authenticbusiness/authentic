@@ -7,17 +7,43 @@
   <meta name="description" content="100% AUTHENTIC">
   <link rel="stylesheet" href="http://authentic.website/css/shop.css"></head>
 <body>
-<section class="left">
-   <span class="helper"></span>
-<a href="http://shop.authentic.website/product/black">
-    <img src="http://desmondwong.com/img/AWD.svg">
+
+  {{#list_page}}
+  {{! This block is rendered when displaying a list of products }}
+
+  <section class="left">
+     <span class="helper"></span>
+  <a href="http://shop.authentic.website/product/black">
+      <img src="http://desmondwong.com/img/AWD.svg">
+        </a>
+  </section>
+  <section class="right">
+     <span class="helper"></span>
+  <a href="http://shop.authentic.website/product/white">
+      <img src="http://desmondwong.com/img/AWD.svg">
       </a>
-</section>
-<section class="right">
-   <span class="helper"></span>
-<a href="http://shop.authentic.website/product/white">
-    <img src="http://desmondwong.com/img/AWD.svg">
-    </a>
-</section>
+  </section>
+
+
+
+  {{/list_page}}
+
+  {{#product_page}}
+  {{! This block is rendered when displaying a single product }}
+          {{#product}}
+          <img src="http://authentic.website/shop/img/{{title}}.svg">
+  <!-- {{price_tag}} -->
+  <!-- {{description}} -->
+                  {{! The #add_to_cart block is only rendered if the product is in stock }}
+                  {{#add_to_cart}}
+                  {{#variations_select}}{{/variations_select}}
+                  {{#add_to_cart_button}}
+                  {{#lang}}Add to cart{{/lang}}
+                  {{/add_to_cart_button}}
+                  {{/add_to_cart}}
+          {{/product}}
+
+  {{/product_page}}
+
 </body>
 </html>

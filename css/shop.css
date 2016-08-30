@@ -68,7 +68,7 @@ img#product {
 	display: block;
 	width: 50%;
 	margin: auto;
-	padding: 100px 0px;
+	padding: 100px 50px 50px 50px;
 }
 
 section.product div.buttons {
@@ -83,8 +83,7 @@ section.left, section.right {
 	width: 100%;
 }
 img#product {
-	width: 90%;
-	padding: 50px 0px;
+	width: 75%;
 }
 }
 
@@ -93,7 +92,6 @@ img#product {
 		float:none;
 	}
 	img#product {
-		width: 90%;
-		padding: 50px 0px;
+		width: 75%;
 	}
 }

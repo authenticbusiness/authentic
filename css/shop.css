@@ -55,6 +55,10 @@ a {
 	cursor: pointer;
 }
 
+a:hover {
+	cursor: pointer;
+}
+
 section.product {
 	height: 100%;
 	background: white;

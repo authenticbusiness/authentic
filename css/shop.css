@@ -72,6 +72,10 @@ img#product {
 	padding: 50px;
 }
 
+p#description {
+	text-align: center;
+}
+
 section.product div.buttons {
 	text-align: center;
 	margin-bottom: 100px;

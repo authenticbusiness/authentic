@@ -74,6 +74,7 @@ img#product {
 
 p#description {
 	text-align: center;
+  margin: 20px auto;
 }
 
 section.product div.buttons {

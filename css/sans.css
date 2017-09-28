@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
     font-family: 'AUTHENTIC Sans';
     src: url('../fonts/AUTHENTIC-Sans.woff2') format('woff2'),
@@ -42,9 +47,10 @@ hr {
 }
 
 img {
-  margin-bottom: 50px;
+  margin-bottom: 36px;
 }
 
 p.glyphs {
   word-wrap:break-word;
+  font-size: 36px !important;
 }

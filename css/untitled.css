@@ -79,3 +79,7 @@ li.add:hover span {
 li.add:hover:before {
   content:"ADD TO CART"
 }
+
+li.rule {
+  cursor: default;
+}

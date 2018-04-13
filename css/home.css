@@ -129,9 +129,10 @@ img#untitled-specimen {
 	background: yellow;
 }
 
-
-
-
+footer {
+	display: block;
+	height: 4em;
+}
 
 
 

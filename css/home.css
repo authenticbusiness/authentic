@@ -19,10 +19,10 @@
     font-style: normal;
 }
 
-html, body {
+/* html, body {
 	width: 100%;
 	height: 100%;
-}
+} */
 
 body {
 	background-image: url("../img/AUTHENTIC.svg");
@@ -53,7 +53,7 @@ h1, h2 {
 	margin-bottom: 1em;
 }
 
-h1 {
+h1, h2 {
 	text-align: center;
 }
 
@@ -75,7 +75,7 @@ p:focus a {
 	color: red;
 }
 
-p.centered {
+.centered {
 	text-align: center;
 }
 
@@ -110,12 +110,6 @@ ul {
 	text-align: center;
 }
 
-img#untitled-specimen {
-	display: block;
-	margin: 0 auto;
-	width: 80%;
-}
-
 .specimen {
 	width: 80%;
 	margin: .5em auto;
@@ -125,9 +119,68 @@ img#untitled-specimen {
 	outline-offset: .5em;
 }
 
+img {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+}
+
+#dinica-specimen{
+	/* margin-bottom: 1.5em; */
+}
+
+
 ::selection {
 	background: yellow;
 }
+
+/* SUBSCRIBE */
+
+.submit {
+    opacity: 0;
+    position: absolute;
+    width: auto;
+    display: none;
+	pointer-events: none;
+}
+
+::placeholder {
+	color: black;
+	opacity: 1 !important;
+}
+
+.mc-field-group input {
+	display: block;
+	width: 80%;
+	background: none;
+	color: black !important;
+	font-family: 'AUTHENTIC Sans', Arial, sans-serif;
+    border: 5px dotted black;
+	padding: .5em;
+	margin: 0 auto;
+	opacity: 1;
+}
+
+.mc-field-group input:focus {
+	color: red !important;
+    border: 5px dotted red;
+}
+
+
+
+.mc-field-group input[type="email"], .mc-field-group input[type="text"] {
+	font-family: 'AUTHENTIC Sans', Arial, sans-serif;
+	background: none;
+    /* border: 0; */
+    font-size: 24px;
+    line-height: 32px;
+    color: red;
+    outline: none;
+}
+
+
+
+/* FOOTER */
 
 footer {
 	display: block;

@@ -4,35 +4,34 @@
 }
 
 @font-face {
-    font-family: 'AUTHENTIC Sans';
-    src: url('../fonts/AUTHENTIC-Sans.woff2') format('woff2'),
-         url('../fonts/AUTHENTIC-Sans.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'AUTHENTIC Sans';
+	src: url('../fonts/AUTHENTIC-Sans.woff2') format('woff2'), url('../fonts/AUTHENTIC-Sans.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'DINICA';
-    src: url('../fonts/DINICA.woff2') format('woff2'),
-         url('../fonts/DINICA.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'DINICA';
+	src: url('../fonts/DINICA.woff2') format('woff2'), url('../fonts/DINICA.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
-html, body {
+html,
+body {
 	height: 100%;
 }
 
 div#background {
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: white;
-    position: fixed;
-    top: 0;
-    z-index: -999;
-    background-image: url("../img/AUTHENTIC.svg");
-    background-repeat: no-repeat;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: white;
+	position: fixed;
+	top: 0;
+	z-index: -999;
+	background-image: url("../img/AUTHENTIC.svg");
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
 	background-size: 90% 90%;
@@ -46,25 +45,35 @@ section.main {
 	background: none;
 }
 
-h1, h2, p, a, ul, li, br, input {
+h1,
+h2,
+p,
+a,
+ul,
+li,
+br,
+input {
 	color: black;
 	font-family: 'AUTHENTIC Sans', Arial, sans-serif;
 	font-size: 30px;
-  font-weight: normal;
-  line-height: 1.3;
-  margin: 0;
-  }
+	font-weight: normal;
+	line-height: 1.3;
+	margin: 0;
+}
 
-h1, h2 {
+h1,
+h2 {
 	text-transform: uppercase;
 	margin-bottom: 1em;
 }
 
-h1, h2 {
+h1,
+h2 {
 	text-align: center;
 }
 
-a, a:visited {
+a,
+a:visited {
 	display: inline;
 	color: black;
 	text-decoration: none;
@@ -73,7 +82,7 @@ a, a:visited {
 a:hover {
 	text-decoration: none;
 	direction: rtl;
-	unicode-bidi: bidi-override; 
+	unicode-bidi: bidi-override;
 	transform: scale(-1, 1);
 	cursor: pointer;
 }
@@ -87,16 +96,16 @@ p:focus a {
 }
 
 p.glyphs {
-	word-wrap:break-word;
+	word-wrap: break-word;
 	letter-spacing: .125em;
-  }
+}
 
 p:focus {
-    outline: red;
-    outline-style: dotted;
+	outline: red;
+	outline-style: dotted;
 	outline-width: 5px;
 	outline-offset: .5em;
-    color: red;
+	color: red;
 }
 
 p#dinica-specimen {
@@ -108,7 +117,7 @@ hr {
 	height: 3px;
 	background: black;
 	margin: 3em auto;
-  }
+}
 
 ul {
 	list-style: none;
@@ -119,7 +128,7 @@ ul {
 	width: 80%;
 	margin: .5em auto;
 	outline: black;
-    outline-style: dotted;
+	outline-style: dotted;
 	outline-width: 5px;
 	outline-offset: .5em;
 }
@@ -137,10 +146,10 @@ img {
 /* SUBSCRIBE */
 
 .submit {
-    opacity: 0;
-    position: absolute;
-    width: auto;
-    display: none;
+	opacity: 0;
+	position: absolute;
+	width: auto;
+	display: none;
 	pointer-events: none;
 }
 
@@ -156,8 +165,8 @@ img {
 	color: black !important;
 	font-family: 'AUTHENTIC Sans', Arial, sans-serif;
 	font-size: 30px;
-    line-height: 1.2;
-    border: 5px dotted black;
+	line-height: 1.2;
+	border: 5px dotted black;
 	padding: .5em;
 	margin: 0 auto;
 	opacity: 1;
@@ -165,18 +174,17 @@ img {
 
 .mc-field-group input:focus {
 	color: red !important;
-    border: 5px dotted red;
+	border: 5px dotted red;
 }
 
-
-
-.mc-field-group input[type="email"], .mc-field-group input[type="text"] {
+.mc-field-group input[type="email"],
+.mc-field-group input[type="text"] {
 	font-family: 'AUTHENTIC Sans', Arial, sans-serif;
 	background: none;
-    font-size: 30px;
-    line-height: 1.2;
-    color: red;
-    outline: none;
+	font-size: 30px;
+	line-height: 1.2;
+	color: red;
+	outline: none;
 }
 
 /* FOOTER */
@@ -187,18 +195,37 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-	h1, h2, p, a, ul, li, br, input, .mc-field-group input, .mc-field-group input[type="email"], .mc-field-group input[type="text"] {
+	h1,
+	h2,
+	p,
+	a,
+	ul,
+	li,
+	br,
+	input,
+	.mc-field-group input,
+	.mc-field-group input[type="email"],
+	.mc-field-group input[type="text"] {
 		font-size: 24px !important;
-	  }
-
+	}
 	hr {
 		height: 2px;
 		margin: 2em auto;
-	  }
+	}
 }
 
 @media screen and (max-width: 600px) {
-	h1, h2, p, a, ul, li, br, input, .mc-field-group input, .mc-field-group input[type="email"], .mc-field-group input[type="text"] {
+	h1,
+	h2,
+	p,
+	a,
+	ul,
+	li,
+	br,
+	input,
+	.mc-field-group input,
+	.mc-field-group input[type="email"],
+	.mc-field-group input[type="text"] {
 		font-size: 20px !important;
-	  }
+	}
 }

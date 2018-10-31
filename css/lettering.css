@@ -1,0 +1,14 @@
+hr {
+	margin: 12em auto;
+}
+
+section.main {
+	width: 100%;
+	max-width: none;
+	margin: 4em auto;
+	background: none;
+}
+
+img {
+	max-width: 800px;
+}

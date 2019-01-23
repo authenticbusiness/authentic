@@ -136,7 +136,7 @@ ul {
 	outline-offset: .5em;
 }
 
-img {
+img.product {
 	display: block;
 	margin: 0 auto;
 	width: 60%;

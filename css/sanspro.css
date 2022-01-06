@@ -19,7 +19,7 @@ text-align: left;
 
 h1, h2, p, a, ul, li {
   font-size: 36px;
-  color: red;
+  color: green;
   font-weight: normal;
   line-height: 1.2;
   margin: 0px;
@@ -42,7 +42,7 @@ a {
 hr {
   border: none;
   height: 3px;
-  background: red;
+  background: black;
   margin-bottom: 36px;
 }
 

@@ -142,10 +142,6 @@ img.product {
 	width: 60%;
 }
 
-img.border {
-	/* border: 3px solid black; */
-}
-
 ::selection {
 	background: yellow;
 }
@@ -177,9 +173,6 @@ footer {
 	}
 	img {
 		width: 80%;
-	}
-	img.border {
-		/* border: 2px solid white; */
 	}
 }
 

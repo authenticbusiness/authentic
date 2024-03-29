@@ -5,8 +5,7 @@
 
 @font-face {
     font-family: 'AUTHENTIC Sans';
-    src: url('../fonts/AUTHENTIC-Sans-Pro-90.woff2') format('woff2'),
-         url('../fonts/AUTHENTIC-Sans-Pro-90.woff') format('woff');
+    src: url('../fonts/AUTHENTICSansPro-90.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }

@@ -41,7 +41,8 @@ function loadSentencesFromJSON(jsonPath) {
         .catch(error => console.error('Error loading JSON:', error));
 }
 
-// Select the paragraph element
+// Select the frame and paragraph elements
+const frame = document.getElementById('frame');
 const paragraph = document.getElementById('poems');
 
 // Initialize an array to hold the sentences
@@ -50,5 +51,5 @@ let sentences = [];
 // Load sentences from the JSON file
 loadSentencesFromJSON('poems.json');
 
-// Add a click event listener to the paragraph
-paragraph.addEventListener('click', randomizeFontAndText);
+// Add a click event listener to the frame
+frame.addEventListener('click', randomizeFontAndText);

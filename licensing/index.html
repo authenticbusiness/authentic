@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AUTHENTIC SHOP</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js"></script>
+</head>
+<body>
+<section class="main">
+    <h1>AUTHENTIC SHOP</h1>
+    <hr>
+    <p>Select the typeface and licensing tier:</p>
+
+    <div class="product">
+        <label for="typeface">Typeface:</label>
+        <select id="typeface">
+            <option value="AuthenticSansPro">Authentic Sans Pro</option>
+            <option value="Untitled">Untitled</option>
+            <option value="AuthenticSans">Authentic Sans</option>
+        </select>
+    </div>
+
+    <div class="product">
+        <label for="style">Style:</label>
+        <select id="style">
+            <!-- Options will be populated by JavaScript -->
+        </select>
+    </div>
+
+    <div class="product">
+        <label for="tier">License Tier:</label>
+        <select id="tier">
+            <!-- Options will be populated by JavaScript -->
+        </select>
+    </div>
+
+    <div class="price" id="price">$0.00</div>
+
+    <div class="add-to-cart">
+        <a id="addToCartLink" href="#" rel="nofollow" class="sendowl-buy-button">Add to Cart</a>
+    </div>
+
+    <label for="fontSizeSlider">Font Size:</label>
+    <input type="range" id="fontSizeSlider" min="12" max="72" value="16">
+
+    <label for="lineHeightSlider">Line Height:</label>
+    <input type="range" id="lineHeightSlider" min="0.8" max="2" step="0.1" value="1.5">
+
+    <div id="editableBlock" class="editable" contenteditable="true">
+        This is a sample text block. You can edit this text to see how the selected typeface looks.
+    </div>
+
+    <div id="variableControls" style="display: none;">
+        <label for="weightSlider">Weight:</label>
+        <input type="range" id="weightSlider" min="60" max="150" value="60">
+        <label for="widthSlider">Width:</label>
+        <input type="range" id="widthSlider" min="80" max="100" value="100">
+    </div>
+
+    <a href="https://transactions.sendowl.com/cart?merchant_id=41972" class="sendowl-checkout-button" data-sendowl-cart id="viewCartBtn">View Cart & Checkout</a>
+</section>
+
+<script src="scripts.js"></script>
+</body>
+</html>

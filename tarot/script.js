@@ -45,10 +45,12 @@ let currentCardIndex = 0;
 let significator = null;
 let selectedFont = "Arial, sans-serif";
 let paymentCompleted = false;
+let originalDeck = [];
 
 async function fetchDeck() {
     const response = await fetch('tarot_deck.json');
     deck = await response.json();
+    originalDeck = [...deck];  // Store the original deck
     initializeCardMap();
     populateSignificatorDropdown();
     checkForSavedSpread();
@@ -124,8 +126,9 @@ function decodeSpreadState(encodedState) {
 
 function populateSignificatorDropdown() {
     const dropdown = document.getElementById('significator');
-    const magicianAndHighPriestess = deck.filter(card => card.name === "The Magician" || card.name === "The High Priestess");
-    const otherCards = deck.filter(card => card.name !== "The Magician" && card.name !== "The High Priestess");
+    dropdown.innerHTML = '';  // Clear existing options
+    const magicianAndHighPriestess = originalDeck.filter(card => card.name === "The Magician" || card.name === "The High Priestess");
+    const otherCards = originalDeck.filter(card => card.name !== "The Magician" && card.name !== "The High Priestess");
 
     const sortedDeck = [...magicianAndHighPriestess, ...otherCards];
 
@@ -142,8 +145,10 @@ function selectSignificator() {
     const selectedCardName = dropdown.value;
     if (!selectedCardName) return;
 
-    significator = deck.find(card => card.name === selectedCardName);
-    deck = deck.filter(card => card.name !== selectedCardName);
+    // Restore the deck from the original deck
+    deck = originalDeck.filter(card => card.name !== selectedCardName);
+
+    significator = originalDeck.find(card => card.name === selectedCardName);
 
     const cardElement = document.getElementById('card1');
     cardElement.innerHTML = `<div class="card-name">${significator.name}</div>`;

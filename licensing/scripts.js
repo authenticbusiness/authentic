@@ -3,15 +3,22 @@ document.addEventListener('DOMContentLoaded', function() {
     const styleSelect = document.getElementById('style');
     const tierSelect = document.getElementById('tier');
     const priceDisplay = document.getElementById('price');
-    const addToCartLink = document.getElementById('addToCartLink');
+    const addToCartBtn = document.getElementById('addToCartBtn');
     const editableBlock = document.getElementById('editableBlock');
     const variableControls = document.getElementById('variableControls');
     const weightSlider = document.getElementById('weightSlider');
     const widthSlider = document.getElementById('widthSlider');
     const fontSizeSlider = document.getElementById('fontSizeSlider');
     const lineHeightSlider = document.getElementById('lineHeightSlider');
+    const fontSizeLabel = document.getElementById('fontSizeLabel');
+    const lineHeightLabel = document.getElementById('lineHeightLabel');
+    const viewCartBtn = document.getElementById('viewCartBtn');
+    const infoLinksContainer = document.getElementById('infoLinksContainer');
+    const infoLinksLabel = document.getElementById('infoLinksLabel');
 
     let productData = {};
+    let fontStyleElement = document.createElement('style');
+    document.head.appendChild(fontStyleElement);
 
     const tierLabels = {
         "small-business": "Small Business (under 50 employees)",
@@ -28,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
             updatePrice();
             updateFont();
             updateAddToCartLink();
+            updateInfoLinks();
         });
 
     function updateStyles() {
@@ -40,6 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }).join('');
         updateTiers();
         toggleVariableControls();
+        toggleEditableBlock();
     }
 
     function updateTiers() {
@@ -64,17 +73,18 @@ document.addEventListener('DOMContentLoaded', function() {
         const fontFamily = productData[typeface].fontFamily;
         const fontFile = productData[typeface][style].fontFile;
 
-        const newStyle = document.createElement('style');
-        newStyle.appendChild(document.createTextNode(`
-            @font-face {
-                font-family: '${fontFamily}';
-                src: url('${fontFile}');
-            }
-        `));
+        if (fontFile) {
+            fontStyleElement.innerHTML = `
+                @font-face {
+                    font-family: '${fontFamily}';
+                    src: url('${fontFile}');
+                }
+            `;
+            editableBlock.style.fontFamily = fontFamily;
+        }
 
-        document.head.appendChild(newStyle);
-        editableBlock.style.fontFamily = fontFamily;
         toggleVariableControls();
+        toggleEditableBlock();
     }
 
     function toggleVariableControls() {
@@ -89,14 +99,50 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    function toggleEditableBlock() {
+        const typeface = typefaceSelect.value;
+        const style = styleSelect.value;
+        if (style === 'Family' || style === 'RegularFamily' || style === 'CondensedFamily') {
+            editableBlock.style.display = 'none';
+            fontSizeSlider.style.display = 'none';
+            lineHeightSlider.style.display = 'none';
+            fontSizeLabel.style.display = 'none';
+            lineHeightLabel.style.display = 'none';
+        } else {
+            editableBlock.style.display = 'block';
+            fontSizeSlider.style.display = 'block';
+            lineHeightSlider.style.display = 'block';
+            fontSizeLabel.style.display = 'block';
+            lineHeightLabel.style.display = 'block';
+        }
+    }
+
     function updateAddToCartLink() {
         const typeface = typefaceSelect.value;
         const style = styleSelect.value;
         const tier = tierSelect.value;
         const link = productData[typeface][style][tier].link;
-        addToCartLink.href = link;
+        addToCartBtn.dataset.href = link;
     }
 
+    function updateInfoLinks() {
+        const typeface = typefaceSelect.value;
+        const infoLinks = productData[typeface].infoLinks;
+        infoLinksContainer.innerHTML = '';
+    
+        if (infoLinks) {
+            infoLinksLabel.style.display = "block";
+            Object.keys(infoLinks).forEach(label => {
+                const button = document.createElement('button');
+                button.textContent = label;
+                button.onclick = () => window.open(infoLinks[label], '_blank');
+                infoLinksContainer.appendChild(button);
+            });
+        } else {
+            infoLinksLabel.style.display = "none";
+        }
+    }
+      
     typefaceSelect.addEventListener('change', () => {
         updateStyles();
         updateFont();
@@ -130,14 +176,36 @@ document.addEventListener('DOMContentLoaded', function() {
         editableBlock.style.lineHeight = lineHeightSlider.value;
     });
 
-    addToCartLink.addEventListener('click', function(event) {
+    addToCartBtn.addEventListener('click', function(event) {
         event.preventDefault();
-        const typeface = typefaceSelect.value;
-        const style = styleSelect.value;
-        const tier = tierSelect.value;
-        const link = productData[typeface][style][tier].link;
-        addToCartLink.href = link;
-        sendOwl.captureLinks();
-        sendOwl.purchaseHandler({ target: addToCartLink });
+        const link = addToCartBtn.dataset.href;
+        if (link) {
+            const tempLink = document.createElement('a');
+            tempLink.href = link;
+            tempLink.classList.add('sendowl-buy-button');
+            document.body.appendChild(tempLink);
+            sendOwl.captureLinks();
+            sendOwl.purchaseHandler({ target: tempLink });
+            document.body.removeChild(tempLink);
+        }
     });
+
+    viewCartBtn.addEventListener('click', function(event) {
+        event.preventDefault();
+        const tempLink = document.createElement('a');
+        tempLink.href = 'https://transactions.sendowl.com/cart?merchant_id=41972';
+        tempLink.classList.add('sendowl-cart-button');
+        document.body.appendChild(tempLink);
+        sendOwl.captureLinks();
+        sendOwl.purchaseHandler({ target: tempLink });
+        document.body.removeChild(tempLink);
+    });
+
+    typefaceSelect.addEventListener('change', () => {
+        updateStyles();
+        updateFont();
+        updateAddToCartLink();
+        updateInfoLinks();
+    });  
+    
 });

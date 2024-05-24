@@ -58,6 +58,7 @@ a:hover {
     box-sizing: border-box;
     /* filter: blur(2px); */
 	/* background-color: rgb(255, 239, 239); */
+    cursor: wait;
 }
 
 

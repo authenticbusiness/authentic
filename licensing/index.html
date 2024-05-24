@@ -10,14 +10,16 @@
 <section class="main">
     <h1>AUTHENTIC SHOP</h1>
     <hr>
-    <p>Select the typeface and licensing tier:</p>
+    <!-- <p>Select the typeface and licensing tier:</p> -->
 
     <div class="product">
         <label for="typeface">Typeface:</label>
         <select id="typeface">
-            <option value="AuthenticSansPro">Authentic Sans Pro</option>
-            <option value="Untitled">Untitled</option>
             <option value="AuthenticSans">Authentic Sans</option>
+            <option value="AuthenticSansPro">Authentic Sans Pro</option>
+            <option value="Chinatown">Chinatown</option>
+            <option value="Classified">Classified</option>
+            <option value="Untitled">Untitled</option>
         </select>
     </div>
 
@@ -29,7 +31,7 @@
     </div>
 
     <div class="product">
-        <label for="tier">License Tier:</label>
+        <label for="tier">License:</label>
         <select id="tier">
             <!-- Options will be populated by JavaScript -->
         </select>
@@ -38,18 +40,14 @@
     <div class="price" id="price">$0.00</div>
 
     <div class="add-to-cart">
-        <a id="addToCartLink" href="#" rel="nofollow" class="sendowl-buy-button">Add to Cart</a>
+        <button id="addToCartBtn" class="sendowl-buy-button">Add to Cart</button>
     </div>
 
-    <label for="fontSizeSlider">Font Size:</label>
+    <label for="fontSizeSlider" id="fontSizeLabel">Font Size:</label>
     <input type="range" id="fontSizeSlider" min="12" max="72" value="16">
 
-    <label for="lineHeightSlider">Line Height:</label>
+    <label for="lineHeightSlider" id="lineHeightLabel">Line Height:</label>
     <input type="range" id="lineHeightSlider" min="0.8" max="2" step="0.1" value="1.5">
-
-    <div id="editableBlock" class="editable" contenteditable="true">
-        This is a sample text block. You can edit this text to see how the selected typeface looks.
-    </div>
 
     <div id="variableControls" style="display: none;">
         <label for="weightSlider">Weight:</label>
@@ -58,7 +56,12 @@
         <input type="range" id="widthSlider" min="80" max="100" value="100">
     </div>
 
-    <a href="https://transactions.sendowl.com/cart?merchant_id=41972" class="sendowl-checkout-button" data-sendowl-cart id="viewCartBtn">View Cart & Checkout</a>
+    <div id="editableBlock" class="editable" contenteditable="true">
+        Printing was introduced into America at Mexico by the Viceroy Mendoza in 1536. The first book printed was the Escala espiritual de San Juan Climaco, of which no copy is known to exist; but the oldest American book now extant is the Manual de Adultos, dated 1540, of which only the last four leaves are to be found in the library of the Cathedral of Toledo. The name of the earliest printer is a matter of question.
+    </div>
+    <label id="infoLinksLabel" style="display: none;">Information:</label>
+    <div id="infoLinksContainer"></div>
+    <button id="viewCartBtn" class="sendowl-cart-button">View Cart & Checkout</button>
 </section>
 
 <script src="scripts.js"></script>

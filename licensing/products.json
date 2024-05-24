@@ -1,9 +1,89 @@
 {
+    "AuthenticSans": {
+        "fontFamily": "AUTHENTIC Sans",
+        "60": {
+            "label": "60",
+            "fontFile": "fonts/authentic-sans-60.woff2",
+            "WTFPL": {
+                "link": "https://transactions.sendowl.com/products/AAAAA/add_to_cart",
+                "price": 0
+            }
+        },
+        "90": {
+            "label": "90",
+            "fontFile": "fonts/authentic-sans-90.woff2",
+            "WTFPL": {
+                "link": "https://transactions.sendowl.com/products/BBBBB/add_to_cart",
+                "price": 0
+            }
+        },
+        "130": {
+            "label": "130",
+            "fontFile": "fonts/authentic-sans-130.woff2",
+            "WTFPL": {
+                "link": "https://transactions.sendowl.com/products/CCCCC/add_to_cart",
+                "price": 0
+            }
+        },
+        "150": {
+            "label": "150",
+            "fontFile": "fonts/authentic-sans-150.woff2",
+            "WTFPL": {
+                "link": "https://transactions.sendowl.com/products/DDDDD/add_to_cart",
+                "price": 0
+            }
+        },
+        "Condensed60": {
+            "label": "Condensed 60",
+            "fontFile": "fonts/authentic-sans-condensed-60.woff2",
+            "WTFPL": {
+                "link": "https://transactions.sendowl.com/products/EEEEE/add_to_cart",
+                "price": 0
+            }
+        },
+        "Condensed90": {
+            "label": "Condensed 90",
+            "fontFile": "fonts/authentic-sans-condensed-90.woff2",
+            "WTFPL": {
+                "link": "https://transactions.sendowl.com/products/FFFFF/add_to_cart",
+                "price": 0
+            }
+        },
+        "Condensed130": {
+            "label": "Condensed 130",
+            "fontFile": "fonts/authentic-sans-condensed-130.woff2",
+            "WTFPL": {
+                "link": "https://transactions.sendowl.com/products/GGGGG/add_to_cart",
+                "price": 0
+            }
+        },
+        "Condensed150": {
+            "label": "Condensed 150",
+            "fontFile": "fonts/authentic-sans-condensed-150.woff2",
+            "WTFPL": {
+                "link": "https://transactions.sendowl.com/products/HHHHH/add_to_cart",
+                "price": 0
+            }
+        },
+        "Family": {
+            "label": "Family Package",
+            "fontFile": null,
+            "WTFPL": {
+                "link": "https://transactions.sendowl.com/products/77987752/082A2418/add_to_cart",
+                "price": 0
+            }
+        },
+        "infoLinks": {
+            "Authentic Sans website": "https://authentic.website/sans",
+            "Fonts In Use": "https://fontsinuse.com/typefaces/3766/authentic-sans",
+            "Are.na": "https://www.are.na/authentic/foundry-authentic-sans"
+        }
+    },
     "AuthenticSansPro": {
         "fontFamily": "AUTHENTIC Sans Pro",
         "60": {
             "label": "60",
-            "fontFile": "fonts/AUTHENTICSansPro-60.woff2",
+            "fontFile": "fonts/authentic-sans-pro-60.woff2",
             "small-business": {
                 "link": "https://transactions.sendowl.com/products/XXXXX/add_to_cart",
                 "price": 100
@@ -19,7 +99,7 @@
         },
         "90": {
             "label": "90",
-            "fontFile": "fonts/AUTHENTICSansPro-90.woff2",
+            "fontFile": "fonts/authentic-sans-pro-90.woff2",
             "small-business": {
                 "link": "https://transactions.sendowl.com/products/AAAAA/add_to_cart",
                 "price": 100
@@ -35,7 +115,7 @@
         },
         "130": {
             "label": "130",
-            "fontFile": "fonts/AUTHENTICSansPro-130.woff2",
+            "fontFile": "fonts/authentic-sans-pro-130.woff2",
             "small-business": {
                 "link": "https://transactions.sendowl.com/products/DDDDD/add_to_cart",
                 "price": 100
@@ -51,7 +131,7 @@
         },
         "150": {
             "label": "150",
-            "fontFile": "fonts/AUTHENTICSansPro-150.woff2",
+            "fontFile": "fonts/authentic-sans-pro-150.woff2",
             "small-business": {
                 "link": "https://transactions.sendowl.com/products/GGGGG/add_to_cart",
                 "price": 100
@@ -67,7 +147,7 @@
         },
         "Condensed60": {
             "label": "Condensed 60",
-            "fontFile": "fonts/AUTHENTICSansPro-Condensed60.woff2",
+            "fontFile": "fonts/authentic-sans-pro-condensed-60.woff2",
             "small-business": {
                 "link": "https://transactions.sendowl.com/products/JJJJJ/add_to_cart",
                 "price": 100
@@ -83,7 +163,7 @@
         },
         "Condensed90": {
             "label": "Condensed 90",
-            "fontFile": "fonts/AUTHENTICSansPro-Condensed90.woff2",
+            "fontFile": "fonts/authentic-sans-pro-condensed-90.woff2",
             "small-business": {
                 "link": "https://transactions.sendowl.com/products/MMMMM/add_to_cart",
                 "price": 100
@@ -99,7 +179,7 @@
         },
         "Condensed130": {
             "label": "Condensed 130",
-            "fontFile": "fonts/AUTHENTICSansPro-Condensed130.woff2",
+            "fontFile": "fonts/authentic-sans-pro-condensed-130.woff2",
             "small-business": {
                 "link": "https://transactions.sendowl.com/products/PPPPP/add_to_cart",
                 "price": 100
@@ -115,7 +195,7 @@
         },
         "Condensed150": {
             "label": "Condensed 150",
-            "fontFile": "fonts/AUTHENTICSansPro-Condensed150.woff2",
+            "fontFile": "fonts/authentic-sans-pro-condensed-150.woff2",
             "small-business": {
                 "link": "https://transactions.sendowl.com/products/SSSSS/add_to_cart",
                 "price": 100
@@ -129,9 +209,57 @@
                 "price": 300
             }
         },
+        "Family": {
+            "label": "Full Family Package",
+            "fontFile": null,
+            "small-business": {
+                "link": "https://transactions.sendowl.com/products/78637141/C7654427/add_to_cart",
+                "price": 600
+            },
+            "business": {
+                "link": "https://transactions.sendowl.com/products/78637141/C7654427/add_to_cart",
+                "price": 1200
+            },
+            "enterprise": {
+                "link": "https://transactions.sendowl.com/products/78637141/C7654427/add_to_cart",
+                "price": 1800
+            }
+        },
+        "RegularFamily": {
+            "label": "Regular Family Package",
+            "fontFile": null,
+            "small-business": {
+                "link": "https://transactions.sendowl.com/products/AAAAAA/add_to_cart",
+                "price": 300
+            },
+            "business": {
+                "link": "https://transactions.sendowl.com/products/BBBBBB/add_to_cart",
+                "price": 600
+            },
+            "enterprise": {
+                "link": "https://transactions.sendowl.com/products/CCCCCC/add_to_cart",
+                "price": 900
+            }
+        },
+        "CondensedFamily": {
+            "label": "Condensed Family Package",
+            "fontFile": null,
+            "small-business": {
+                "link": "https://transactions.sendowl.com/products/DDDDDD/add_to_cart",
+                "price": 300
+            },
+            "business": {
+                "link": "https://transactions.sendowl.com/products/EEEEEE/add_to_cart",
+                "price": 600
+            },
+            "enterprise": {
+                "link": "https://transactions.sendowl.com/products/FFFFFF/add_to_cart",
+                "price": 900
+            }
+        },
         "Variable": {
             "label": "Variable Font",
-            "fontFile": "fonts/AUTHENTICSansPro-VF.ttf",
+            "fontFile": "fonts/authentic-sans-pro-vf.ttf",
             "small-business": {
                 "link": "https://transactions.sendowl.com/products/VVVVV/add_to_cart",
                 "price": 500
@@ -146,11 +274,49 @@
             }
         }
     },
+    "Chinatown": {
+        "fontFamily": "AUTHENTIC Chinatown",
+        "Regular": {
+            "label": "Regular",
+            "fontFile": "fonts/chinatown-regular.woff2",
+            "small-business": {
+                "link": "https://transactions.sendowl.com/products/78484022/F7CA8C75/add_to_cart",
+                "price": 70
+            },
+            "business": {
+                "link": "https://transactions.sendowl.com/products/78484022/F7CA8C75/add_to_cart",
+                "price": 140
+            },
+            "enterprise": {
+                "link": "https://transactions.sendowl.com/products/78484022/F7CA8C75/add_to_cart",
+                "price": 210
+            }
+        }
+    },
+    "Classified": {
+        "fontFamily": "AUTHENTIC Classified",
+        "Regular": {
+            "label": "Regular",
+            "fontFile": "fonts/classified-regular.woff2",
+            "small-business": {
+                "link": "https://transactions.sendowl.com/products/77970224/3020C538/add_to_cart",
+                "price": 60
+            },
+            "business": {
+                "link": "https://transactions.sendowl.com/products/77970224/3020C538/add_to_cart",
+                "price": 120
+            },
+            "enterprise": {
+                "link": "https://transactions.sendowl.com/products/77970224/3020C538/add_to_cart",
+                "price": 180
+            }
+        }
+    },
     "Untitled": {
         "fontFamily": "AUTHENTIC Untitled",
         "Display": {
             "label": "Display",
-            "fontFile": "fonts/UntitledDisplay.woff2",
+            "fontFile": "fonts/untitled-display.woff2",
             "small-business": {
                 "link": "https://transactions.sendowl.com/products/HHHHH/add_to_cart",
                 "price": 80
@@ -166,7 +332,7 @@
         },
         "Text": {
             "label": "Text",
-            "fontFile": "fonts/UntitledText.woff2",
+            "fontFile": "fonts/untitled-text.woff2",
             "small-business": {
                 "link": "https://transactions.sendowl.com/products/KKKKK/add_to_cart",
                 "price": 90
@@ -179,16 +345,21 @@
                 "link": "https://transactions.sendowl.com/products/MMMMM/add_to_cart",
                 "price": 270
             }
-        }
-    },
-    "AuthenticSans": {
-        "fontFamily": "AUTHENTIC Sans",
-        "Regular": {
-            "label": "Regular",
-            "fontFile": "fonts/AUTHENTICSans-Regular.woff2",
-            "WTFPL": {
-                "link": "https://transactions.sendowl.com/products/NNNNN/add_to_cart",
-                "price": 0
+        },
+        "Family": {
+            "label": "Family Package",
+            "fontFile": null,
+            "small-business": {
+                "link": "https://transactions.sendowl.com/products/GGGGGG/add_to_cart",
+                "price": 150
+            },
+            "business": {
+                "link": "https://transactions.sendowl.com/products/HHHHHH/add_to_cart",
+                "price": 300
+            },
+            "enterprise": {
+                "link": "https://transactions.sendowl.com/products/IIIIII/add_to_cart",
+                "price": 450
             }
         }
     }

@@ -1,6 +1,9 @@
-// Function to generate a random number within a given range
+// Function to generate a random number within a given range using Web Crypto API
 function getRandomInRange(min, max) {
-    return Math.random() * (max - min) + min;
+    const randomBuffer = new Uint32Array(1);
+    window.crypto.getRandomValues(randomBuffer);
+    const randomNumber = randomBuffer[0] / (0xFFFFFFFF + 1);
+    return randomNumber * (max - min) + min;
 }
 
 // Function to randomize font settings and text content
@@ -19,7 +22,7 @@ function randomizeFontAndText() {
     paragraph.style.fontVariationSettings = `'wght' ${randomWeight}, 'wdth' ${randomWidth}`;
 
     // Get a random sentence from the sentences array
-    const randomSentence = sentences[Math.floor(Math.random() * sentences.length)];
+    const randomSentence = sentences[Math.floor(getRandomInRange(0, sentences.length))];
     
     // Set the random sentence as the paragraph's text content
     paragraph.textContent = randomSentence;

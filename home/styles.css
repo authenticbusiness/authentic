@@ -28,7 +28,7 @@ h1 {
 
 .editable {
     min-height: 500px;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     margin-bottom: 2rem;
     padding: 2rem;
     border: 2px solid red;
@@ -112,12 +112,14 @@ button {
 }
 
 input[type="range"] {
+    margin-left: .25rem;
     margin-right: 1rem;
 }
 
 #viewCartBtn {
     display: block;
     margin-top: 1rem;
+    margin-bottom: 10rem;
 }
 
 /* Modal styling */

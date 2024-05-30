@@ -45,7 +45,7 @@ function loadSentencesFromJSON(jsonPath) {
 }
 
 // Select the frame and paragraph elements
-const frame = document.getElementById('frame');
+const frame = document.getElementById('frame1');
 const paragraph = document.getElementById('poems');
 
 // Initialize an array to hold the sentences

@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const tier = tierSelect.value;
         const licenseInfo = productData.licenses[tier];
 
-        modalContent.innerHTML = `<h2>${licenseInfo.label}</h2><br><p>${licenseInfo.info}</p>`;
+        modalContent.innerHTML = `<h2>${licenseInfo.label}</h2><p>${licenseInfo.info}</p>`;
         infoModal.style.display = 'block';
     }
 
@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function openGlyphsModal() {
         const typeface = typefaceSelect.value;
         const glyphs = productData[typeface].glyphs.split('').join(' ');
-        modalGlyphsContent.innerHTML = `<h2>Glyphs</h2><br><p>${glyphs}</p>`;
+        modalGlyphsContent.innerHTML = `<h2>Glyphs</h2><p>${glyphs}</p>`;
         glyphsModal.style.display = 'block';
     }
 

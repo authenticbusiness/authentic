@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>AUTHENTIC</title>
-    <link rel="stylesheet" href="poem.css">
     <link rel="stylesheet" href="styles.css">
     <script type="text/javascript" src="https://transactions.sendowl.com/assets/sendowl.js"></script>
 </head>
 <body>
+    <button>Test button</button>
     <div id="frame">
         <p id="poems">Leonardo da Vinci wrote that a poet would be overcome by sleep and hunger before being able to describe with words what a painter is able to depict in an instant</p>
       </div>
@@ -16,12 +16,10 @@
    
         </section>
 
+        <div id="editableBlock" class="editable" contenteditable="true" spellcheck="false">
+            Leonardo da Vinci wrote that an image is poetry seen not felt, however, a maker of images that abandons true nature for the artificial is unable to make anyone see
+        </div>
         <section class="main">
-
-            <div id="editableBlock" class="editable" contenteditable="true" spellcheck="false">
-                Leonardo da Vinci wrote that an image is poetry seen not felt, however, a maker of images that abandons true nature for the artificial is unable to make anyone see
-            </div>
-            <div id="menu">
             <div id="fontControls">
                 <label for="fontSizeSlider" id="fontSizeLabel">Size:</label>
                 <input type="range" id="fontSizeSlider" min="12" max="72" value="16">
@@ -55,7 +53,7 @@
             <div class="product">
                 <label for="tier">License:</label>
                 <select id="tier"></select>
-                <span id="infoIcon" class="info-icon" onclick="openInfoModal()">?</span>
+                <button id="infoIcon" class="info-icon" onclick="openInfoModal()">?</button>
             </div>
             
             <div class="product">
@@ -69,7 +67,6 @@
             </div>
           
             <button id="viewCartBtn" class="sendowl-cart-button">View cart & checkout</button>
-            </div>
         </section>
 
       <div class="frame" id="leonardo3">
@@ -79,9 +76,9 @@
             <p><a href="mailto:email@authentic.website">Email</a> us for typeface design, lettering, and licensing inquiries.<br>
                 Connect and collaborate on <a href="https://www.are.na/authentic" target="_blank">Are.na</a>.<br>
                 Follow us on <a href="https://instagram.com/veryauthentic" target="_blank">Instagram</a>.<br>
-                Subscribe to our <a href="http://eepurl.com/iJ2Brs" target="_blank">Newsletter</a>.</p>
-              <br>
-              <p>Poems by <a href="https://cortneycassidy.com/" target="_blank">C.C.</a></p>
+                Subscribe to our <a href="http://eepurl.com/iJ2Brs" target="_blank">Newsletter</a>.
+                <br><br>
+                Poems by <a href="https://cortneycassidy.com/" target="_blank">C.C.</a></p>
         </section>
 
 <!-- Modal Structure for License Information -->

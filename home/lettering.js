@@ -1,17 +1,17 @@
-// Function to shuffle an array using Web Crypto API for randomness
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = getRandomInRange(0, i + 1);
-        [array[i], array[j]] = [array[j], array[i]];
-    }
-}
-
 // Function to generate a random number within a given range using Web Crypto API
 function getRandomInRange(min, max) {
     const randomBuffer = new Uint32Array(1);
     window.crypto.getRandomValues(randomBuffer);
     const randomNumber = randomBuffer[0] / (0xFFFFFFFF + 1);
     return Math.floor(randomNumber * (max - min) + min);
+}
+
+// Function to shuffle an array using Web Crypto API for randomness
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = getRandomInRange(0, i + 1);
+        [array[i], array[j]] = [array[j], array[i]];
+    }
 }
 
 // Function to load SVG file names from the JSON file
@@ -25,38 +25,31 @@ function loadSVGFilesFromJSON(jsonPath) {
         });
 }
 
-// Function to randomize SVG display in the frame
-function randomizeSVG() {
-    if (svgFiles.length === 0) {
-        svgFiles = [...usedSvgFiles];
-        usedSvgFiles = [];
+// Function to display the next SVG in the shuffled array
+function displayNextSVG() {
+    if (currentSVGIndex >= svgFiles.length) {
+        currentSVGIndex = 0;
         shuffleArray(svgFiles);
-
-        // Ensure the first SVG of the new cycle is not the same as the last one of the previous cycle
-        if (svgFiles[svgFiles.length - 1] === lastSVG) {
-            [svgFiles[0], svgFiles[svgFiles.length - 1]] = [svgFiles[svgFiles.length - 1], svgFiles[0]];
-        }
+        leonardoFrame.innerHTML = `<p>${leonardoTitleCard}</p>`;
+    } else {
+        const randomSVG = svgFiles[currentSVGIndex];
+        leonardoFrame.innerHTML = `<img src="img/lettering/${randomSVG}" alt="${randomSVG}">`;
+        currentSVGIndex++;
     }
-    const randomSVG = svgFiles.pop();
-    usedSvgFiles.push(randomSVG);
-    lastSVG = randomSVG;
-
-    // Update the content of the frame with the random SVG
-    leonardoFrame.innerHTML = `<img src="img/lettering/${randomSVG}" alt="${randomSVG}">`;
 }
 
 // Select the frame element
 const leonardoFrame = document.getElementById('leonardo3');
 
-// Initialize arrays to hold the SVG file names and track the last displayed SVG
+// Initialize variables
 let svgFiles = [];
-let usedSvgFiles = [];
-let lastSVG = '';
+let currentSVGIndex = 0;
+const leonardoTitleCard = "Leonardo da Vinci wrote that poetry is an image felt not seen, however, a poet who abandons true nature for fancy words is unable to make anyone feel";
 
 // Load SVG file names from the JSON file and shuffle them
 loadSVGFilesFromJSON('lettering.json').then(files => {
     svgFiles = files;
     shuffleArray(svgFiles);
-    // Add a click event listener to the frame
-    leonardoFrame.addEventListener('click', randomizeSVG);
+    leonardoFrame.innerHTML = `<p>${leonardoTitleCard}</p>`;  // Display the title card initially
+    leonardoFrame.addEventListener('click', displayNextSVG);  // Add event listener to cycle through SVGs
 }).catch(error => console.error('Error loading SVG files:', error));

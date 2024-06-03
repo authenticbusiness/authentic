@@ -3,56 +3,65 @@ function getRandomInRange(min, max) {
     const randomBuffer = new Uint32Array(1);
     window.crypto.getRandomValues(randomBuffer);
     const randomNumber = randomBuffer[0] / (0xFFFFFFFF + 1);
-    return randomNumber * (max - min) + min;
+    return Math.floor(randomNumber * (max - min) + min);
 }
 
-// Function to randomize font settings and text content
-function randomizeFontAndText() {
-    // Define the ranges for weight and width
-    const weightMin = 60;
-    const weightMax = 150;
-    const widthMin = 80;
-    const widthMax = 100;
-
-    // Generate random values for weight and width
-    const randomWeight = getRandomInRange(weightMin, weightMax).toFixed(2);
-    const randomWidth = getRandomInRange(widthMin, widthMax).toFixed(2);
-
-    // Apply the random values to the paragraph's font-variation-settings
-    paragraph.style.fontVariationSettings = `'wght' ${randomWeight}, 'wdth' ${randomWidth}`;
-
-    // Get a random sentence from the sentences array
-    const randomSentence = sentences[Math.floor(getRandomInRange(0, sentences.length))];
-    
-    // Set the random sentence as the paragraph's text content
-    paragraph.textContent = randomSentence;
+// Function to shuffle an array using Web Crypto API for randomness
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = getRandomInRange(0, i + 1);
+        [array[i], array[j]] = [array[j], array[i]];
+    }
 }
 
-// Load the JSON file and parse it into an array of sentences
+// Function to load sentences from the JSON file
 function loadSentencesFromJSON(jsonPath) {
-    fetch(jsonPath)
+    return fetch(jsonPath)
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             return response.json();
-        })
-        .then(data => {
-            sentences = data;
-            console.log("Sentences loaded:", sentences);
-        })
-        .catch(error => console.error('Error loading JSON:', error));
+        });
+}
+
+// Function to display the next sentence in the shuffled array and randomize font settings
+function displayNextSentence() {
+    if (currentIndex >= sentences.length) {
+        currentIndex = 0;
+        shuffleArray(sentences);
+        paragraph.textContent = titleCard;
+        paragraph.style.fontVariationSettings = `'wght' 90, 'wdth' 100`; // Fixed font settings for the title card
+    } else {
+        const randomWeight = getRandomInRange(weightMin, weightMax).toFixed(2);
+        const randomWidth = getRandomInRange(widthMin, widthMax).toFixed(2);
+        paragraph.style.fontVariationSettings = `'wght' ${randomWeight}, 'wdth' ${randomWidth}`;
+        
+        paragraph.textContent = sentences[currentIndex];
+        currentIndex++;
+    }
 }
 
 // Select the frame and paragraph elements
 const frame = document.getElementById('frame1');
 const paragraph = document.getElementById('poems');
 
-// Initialize an array to hold the sentences
+// Initialize variables
 let sentences = [];
+let currentIndex = 0;
+const titleCard = "Leonardo da Vinci wrote that a poet would be overcome by sleep and hunger before being able to describe with words what a painter is able to depict in an instant";
 
-// Load sentences from the JSON file
-loadSentencesFromJSON('poems.json');
+// Define the ranges for weight and width
+const weightMin = 60;
+const weightMax = 150;
+const widthMin = 80;
+const widthMax = 100;
 
-// Add a click event listener to the frame
-frame.addEventListener('click', randomizeFontAndText);
+// Load sentences from the JSON file and shuffle them
+loadSentencesFromJSON('poems.json').then(data => {
+    sentences = data;
+    shuffleArray(sentences);
+    paragraph.textContent = titleCard;  // Display the title card initially
+    paragraph.style.fontVariationSettings = `'wght' 90, 'wdth' 100`; // Fixed font settings for the title card
+    frame.addEventListener('click', displayNextSentence);  // Add event listener to cycle through sentences
+}).catch(error => console.error('Error loading sentences:', error));

@@ -19,7 +19,7 @@
     },
     "AuthenticSans": {
         "fontFamily": "AUTHENTIC Sans",
-        "glyphs": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+        "glyphs": "\u0041 \u00C0 \u00C1 \u00C3 \u00C4 \u0042 \u0043 \u00C7 \u0044 \u0045 \u00C8 \u00C9 \u00CB \u0046 \u0047 \u0048 \u0049 \u00CC \u00CD \u00CF \u0128 \u004A \u004B \u004C \u004D \u004E \u00D1 \u0143 \u004F \u00D2 \u00D3 \u00D5 \u00D6 \u0050 \u0051 \u0052 \u0053 \u0054 \u0055 \u00D9 \u00DA \u00DC \u0168 \u0056 \u0057 \u0058 \u0059 \u00DD \u0178 \u1EF2 \u005A \u00D8 \u0132 \u0061 \u00E0 \u00E1 \u00E3 \u00E4 \u0062 \u0063 \u00E7 \u0064 \u0065 \u00E8 \u00E9 \u00EB \u0066 \u0067 \u0068 \u0069 \u00EC \u00ED \u00EF \u0129 \u006A \u006B \u006C \u006D \u006E \u00F1 \u0144 \u006F \u00F2 \u00F3 \u00F5 \u00F6 \u0070 \u0071 \u0072 \u0073 \u0074 \u0075 \u00F9 \u00FA \u00FC \u0169 \u0076 \u0077 \u0078 \u0079 \u00FD \u00FF \u1EF3 \u007A \u00F8 \u0133 \u0133 \u0237 \u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039 \u005F \u002D \u2013 \u2014 \u0028 \u0029 \u005B \u005D \u007B \u007D \u0023 \u0025 \u0022 \u0027 \u2018 \u2019 \u201C \u201D \u002A \u002E \u002C \u003A \u003B \u2026 \u0021 \u00A1 \u003F \u00BF \u002F \u002F \u007C \u0040 \u0026 \u2022 \u002B \u003D \u003C \u003E \u007E \u0024 \u00B4 \u0060 \u02DC \u00A8 \u00B8 \u00A9 &#x1F12F;",
         "60": {
             "label": "60",
             "fontFile": "fonts/authentic-sans-60.woff2",
@@ -94,13 +94,13 @@
         },
         "infoLinks": {
             "Website": "https://authentic.website/sans",
-            "Fonts In Use": "https://fontsinuse.com/typefaces/3766/authentic-sans",
-            "Are.na": "https://www.are.na/authentic/foundry-authentic-sans"
+            "Are.na": "https://www.are.na/authentic/foundry-authentic-sans",
+            "Fonts In Use": "https://fontsinuse.com/typefaces/3766/authentic-sans"
         }
     },
     "AuthenticSansPro": {
         "fontFamily": "AUTHENTIC Sans Pro",
-        "glyphs": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+        "glyphs": "\u0041 \u00C0 \u00C1 \u00C2 \u00C3 \u00C4 \u00C5 \u0100 \u0102 \u0104 \u0042 \u1E02 \u0043 \u00C7 \u0106 \u010A \u010C \u0044 \u1E0A \u0045 \u00C8 \u00C9 \u00CA \u00CB \u0112 \u0114 \u0118 \u0046 \u1E1E \u0047 \u011E \u0120 \u0048 \u0049 \u00CC \u00CD \u00CE \u00CF \u0128 \u012A \u012C \u0130 \u004A \u004B \u004C \u004D \u1E40 \u004E \u00D1 \u0143 \u004F \u00D2 \u00D3 \u00D4 \u00D5 \u00D6 \u014C \u014E \u0150 \u0050 \u1E56 \u0051 \u0052 \u0158 \u0053 \u015A \u015E \u0160 \u0218 \u1E60 \u0054 \u0162 \u021A \u1E6A \u0055 \u00D9 \u00DA \u00DB \u00DC \u0168 \u016A \u016C \u0170 \u01D3 \u0056 \u0057 \u0058 \u0059 \u00DD \u0178 \u1EF2 \u005A \u0179 \u017B \u017D \u00C6 \u00D0 \u00D8 \u00DE \u0110 \u0132 \u013F \u0141 \u0152 \u1E9E \u0061 \u00E0 \u00E1 \u00E2 \u00E3 \u00E4 \u00E5 \u0101 \u0103 \u0105 \u0062 \u1E03 \u0063 \u00E7 \u0107 \u0109 \u010B \u010D \u0064 \u1E0B \u0065 \u00E8 \u00E9 \u00EA \u00EB \u0113 \u0115 \u0119 \u0066 \u1E1F \u0067 \u011F \u0121 \u0068 \u0069 \u00EC \u00ED \u00EE \u00EF \u0129 \u012B \u012D \u006A \u006B \u006C \u006D \u1E41 \u006E \u00F1 \u0144 \u0148 \u006F \u00F2 \u00F3 \u00F4 \u00F5 \u00F6 \u014D \u014F \u0151 \u0070 \u1E57 \u0071 \u0072 \u0159 \u0073 \u015B \u015F \u0161 \u0219 \u1E61 \u0074 \u0163 \u021B \u1E6B \u0075 \u00F9 \u00FA \u00FB \u00FC \u0169 \u016B \u016D \u0171 \u01D4 \u0076 \u0077 \u0078 \u0079 \u00FD \u00FF \u1EF3 \u007A \u017A \u017C \u017E \u00DF \u00E6 \u00F0 \u00F8 \u00FE \u0111 \u0133 \u0133 \u0237 \u00AA \u00BA \u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039 \u005F \u002D \u2010 \u2013 \u2014 \u0028 \u0029 \u005B \u005D \u007B \u007D \u0023 \u0025 \u0022 \u0027 \u2018 \u2019 \u201C \u201D \u201A \u201E \u00AB \u00BB \u002A \u002E \u002C \u003A \u003B \u2026 \u0021 \u00A1 \u003F \u00BF \u002F \u002F \u007C \u0040 \u0026 \u2022 \u002B \u003D \u003C \u003E \u007E \u0024 \u00B4 \u0060 \u02C6 \u02C7 \u02D8 \u02DC \u00AF \u00A8 \u02D9 \u02DA \u00B8 \u02DB \u00A9 \u00AE \u00B0 &#x1F12F; \u00B9 \u00B2 \u00B3",
         "60": {
             "label": "60",
             "fontFile": "fonts/authentic-sans-pro-60.woff2",
@@ -295,12 +295,13 @@
         },
         "infoLinks": {
             "Website": "https://authentic.website/sanspro",
-            "Fonts In Use": "https://fontsinuse.com/typefaces/3766/authentic-sans",
-            "Are.na": "https://www.are.na/authentic/foundry-authentic-sans-pro"
+            "Are.na": "https://www.are.na/authentic/foundry-authentic-sans-pro",
+            "Fonts In Use": "https://fontsinuse.com/typefaces/3766/authentic-sans"
         }
     },
     "Chinatown": {
         "fontFamily": "AUTHENTIC Chinatown",
+        "glyphs": "\u0041 \u0042 \u0043 \u0044 \u0045 \u0046 \u0047 \u0048 \u0049 \u004A \u004B \u004C \u004D \u004E \u004F \u0050 \u0051 \u0052 \u0053 \u0054 \u0055 \u0056 \u0057 \u0058 \u0059 \u005A \u0061 \u0062 \u0063 \u0064 \u0065 \u0066 \u0067 \u0068 \u0069 \u006A \u006B \u006C \u006D \u006E \u006F \u0070 \u0071 \u0072 \u0073 \u0074 \u0075 \u0076 \u0077 \u0078 \u0079 \u007A \u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039 \u002D \u002E \u0021",
         "Regular": {
             "label": "Regular",
             "fontFile": "fonts/chinatown-regular.woff2",
@@ -316,10 +317,14 @@
                 "link": "https://transactions.sendowl.com/products/78484022/F7CA8C75/add_to_cart",
                 "price": 210
             }
+        },
+        "infoLinks": {
+            "Are.na": "https://www.are.na/authentic/foundry-chinatown"
         }
     },
     "Classified": {
         "fontFamily": "AUTHENTIC Classified",
+        "glyphs": "\u0041 \u0042 \u0043 \u0044 \u0045 \u0046 \u0047 \u0048 \u0049 \u004A \u004B \u004C \u004D \u004E \u004F \u0050 \u0051 \u0052 \u0053 \u0054 \u0055 \u0056 \u0057 \u0058 \u0059 \u005A \u0061 \u0062 \u0063 \u0064 \u0065 \u0066 \u0067 \u0068 \u0069 \u006A \u006B \u006C \u006D \u006E \u006F \u0070 \u0071 \u0072 \u0073 \u0074 \u0075 \u0076 \u0077 \u0078 \u0079 \u007A \u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039 \u005F \u002D \u2013 \u2014 \u0028 \u0029 \u005B \u005D \u0023 \u0027 \u0022 \u2018 \u2019 \u201C \u201D \u002A \u002E \u002C \u003A \u003B \u0021 \u003F \u002F \u002F \u007C \u0040 \u0026 \u002B \u003D \u0024 \u00A9",
         "Regular": {
             "label": "Regular",
             "fontFile": "fonts/classified-regular.woff2",
@@ -335,11 +340,14 @@
                 "link": "https://transactions.sendowl.com/products/77970224/3020C538/add_to_cart",
                 "price": 180
             }
+        },
+        "infoLinks": {
+            "Are.na": "https://www.are.na/authentic/foundry-classified"
         }
     },
     "Untitled": {
         "fontFamily": "AUTHENTIC Untitled",
-        "glyphs": "A\u00C0\u00C1\u00C2\u00C3\u00C4\u00C5BC\u00C7\u010CDE\u00C8\u00C9\u00CA\u00CB\u011AFGHI\u00CC\u00CD\u00CE\u00CFJKLMN\u00D1\u0147O\u00D2\u00D3\u00D4\u00D5\u00D6PQR\u0158S\u0160T\u0164U\u00D9\u00DA\u00DB\u00DC\u016EVWXY\u00DDZ\u017DAE\u00D0\u00D8\u00DE\u0152a\u00E0\u00E1\u00E2\u00E3\u00E4\u00E5bc\u00E7\u010Dd\u0111e\u00E8\u00E9\u00EA\u00EB\u011Bfghi\u00EC\u00ED\u00EE\u00EFjklmn\u00F1\u0148o\u00F2\u00F3\u00F4\u00F5\u00F6pqr\u0159s\u0161t\u0165u\u00F9\u00FA\u00FB\u00FC\u016Fvwxy\u00FD\u00FFz\u017E\u00DF\u00E6\u00F0\u00F8\u00FE\u01330123456789_-–—()[]{}#%\"'‘’“”‹›«»*.,:;…!¡?¿//\\|@&§¶·•+−÷×=<>◼$¢£¥€^~\u00B4`˝ˆˇ˘˜¨˙˚¸˛ﬀﬁﬂﬃﬄ",
+        "glyphs": "A \u00C0 \u00C1 \u00C2 \u00C3 \u00C4 \u00C5 B C \u00C7 \u010C D E \u00C8 \u00C9 \u00CA \u00CB \u011A F G H I \u00CC \u00CD \u00CE \u00CF J K L M N \u00D1 \u0147 O \u00D2 \u00D3 \u00D4 \u00D5 \u00D6 P Q R \u0158 S \u0160 T \u0164 U \u00D9 \u00DA \u00DB \u00DC \u016E V W X Y \u00DD Z \u017D A E \u00D0 \u00D8 \u00DE \u0152 a \u00E0 \u00E1 \u00E2 \u00E3 \u00E4 \u00E5 b c \u00E7 \u010D d \u0111 e \u00E8 \u00E9 \u00EA \u00EB \u011B f g h i \u00EC \u00ED \u00EE \u00EF j k l m n \u00F1 \u0148 o \u00F2 \u00F3 \u00F4 \u00F5 \u00F6 p q r \u0159 s \u0161 t \u0165 u \u00F9 \u00FA \u00FB \u00FC \u016F v w x y \u00FD \u00FF z \u017E \u00DF \u00E6 \u00F0 \u00F8 \u00FE \u0133 0 1 2 3 4 5 6 7 8 9 _ - \u2013 \u2014 \u0028 \u0029 \u005B \u005D \u007B \u007D \u0023 \u0025 \u0022 \u0027 \u2018 \u2019 \u201C \u201D \u2039 \u203A \u00AB \u00BB \u002A \u002E \u002C \u003A \u003B \u2026 \u0021 \u00A1 \u003F \u00BF \u002F \u002F \u005C \u007C \u0040 \u0026 \u00A7 \u00B6 \u00B7 \u2022 \u002B \u2212 \u00F7 \u00D7 \u003D \u003C \u003E \u25FC \u0024 \u00A2 \u00A3 \u00A5 \u20AC \u005E \u007E \u00B4 \u0060 \u02DD \u02C6 \u02C7 \u02D8 \u02DC \u00A8 \u02D9 \u02DA \u00B8 \u02DB \uFB00 \uFB01 \uFB02 \uFB03 \uFB04",
         "Display": {
             "label": "Display",
             "fontFile": "fonts/untitled-display.woff2",
@@ -359,6 +367,7 @@
         "Text": {
             "label": "Text",
             "fontFile": "fonts/untitled-text.woff2",
+            "glyphs": "\u0041 \u0042 \u0043 \u0044 \u0045 \u0046 \u0047 \u0048 \u0049 \u004A \u004B \u004C \u004D \u004E \u004F \u0050 \u0051 \u0052 \u0053 \u0054 \u0055 \u0056 \u0057 \u0058 \u0059 \u005A \u0061 \u0062 \u0063 \u0064 \u0065 \u0066 \u0067 \u0068 \u0069 \u006A \u006B \u006C \u006D \u006E \u006F \u0070 \u0071 \u0072 \u0073 \u0074 \u0075 \u0076 \u0077 \u0078 \u0079 \u007A \u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039 \u005F \u002D \u2013 \u2014 \u0028 \u0029 \u005B \u005D \u007B \u007D \u0023 \u0025 \u0022 \u0027 \u2018 \u2019 \u201C \u201D \u002A \u002E \u002C \u003A \u003B \u2026 \u0021 \u003F \u002F \u002F \u007C \u0040 \u0026 \u2022 \u002B \u003D \u003C \u003E \u007E \u0024 \u00A9",
             "small-business": {
                 "link": "https://transactions.sendowl.com/products/KKKKK/add_to_cart",
                 "price": 90
@@ -375,6 +384,7 @@
         "Family": {
             "label": "Family Package",
             "fontFile": null,
+            "glyphs": "Display: A \u00C0 \u00C1 \u00C2 \u00C3 \u00C4 \u00C5 B C \u00C7 \u010C D E \u00C8 \u00C9 \u00CA \u00CB \u011A F G H I \u00CC \u00CD \u00CE \u00CF J K L M N \u00D1 \u0147 O \u00D2 \u00D3 \u00D4 \u00D5 \u00D6 P Q R \u0158 S \u0160 T \u0164 U \u00D9 \u00DA \u00DB \u00DC \u016E V W X Y \u00DD Z \u017D A E \u00D0 \u00D8 \u00DE \u0152 a \u00E0 \u00E1 \u00E2 \u00E3 \u00E4 \u00E5 b c \u00E7 \u010D d \u0111 e \u00E8 \u00E9 \u00EA \u00EB \u011B f g h i \u00EC \u00ED \u00EE \u00EF j k l m n \u00F1 \u0148 o \u00F2 \u00F3 \u00F4 \u00F5 \u00F6 p q r \u0159 s \u0161 t \u0165 u \u00F9 \u00FA \u00FB \u00FC \u016F v w x y \u00FD \u00FF z \u017E \u00DF \u00E6 \u00F0 \u00F8 \u00FE \u0133 0 1 2 3 4 5 6 7 8 9 _ - \u2013 \u2014 \u0028 \u0029 \u005B \u005D \u007B \u007D \u0023 \u0025 \u0022 \u0027 \u2018 \u2019 \u201C \u201D \u2039 \u203A \u00AB \u00BB \u002A \u002E \u002C \u003A \u003B \u2026 \u0021 \u00A1 \u003F \u00BF \u002F \u002F \u005C \u007C \u0040 \u0026 \u00A7 \u00B6 \u00B7 \u2022 \u002B \u2212 \u00F7 \u00D7 \u003D \u003C \u003E \u25FC \u0024 \u00A2 \u00A3 \u00A5 \u20AC \u005E \u007E \u00B4 \u0060 \u02DD \u02C6 \u02C7 \u02D8 \u02DC \u00A8 \u02D9 \u02DA \u00B8 \u02DB \uFB00 \uFB01 \uFB02 \uFB03 \uFB04<br><br>Text: \u0041 \u0042 \u0043 \u0044 \u0045 \u0046 \u0047 \u0048 \u0049 \u004A \u004B \u004C \u004D \u004E \u004F \u0050 \u0051 \u0052 \u0053 \u0054 \u0055 \u0056 \u0057 \u0058 \u0059 \u005A \u0061 \u0062 \u0063 \u0064 \u0065 \u0066 \u0067 \u0068 \u0069 \u006A \u006B \u006C \u006D \u006E \u006F \u0070 \u0071 \u0072 \u0073 \u0074 \u0075 \u0076 \u0077 \u0078 \u0079 \u007A \u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039 \u005F \u002D \u2013 \u2014 \u0028 \u0029 \u005B \u005D \u007B \u007D \u0023 \u0025 \u0022 \u0027 \u2018 \u2019 \u201C \u201D \u002A \u002E \u002C \u003A \u003B \u2026 \u0021 \u003F \u002F \u002F \u007C \u0040 \u0026 \u2022 \u002B \u003D \u003C \u003E \u007E \u0024 \u00A9",
             "small-business": {
                 "link": "https://transactions.sendowl.com/products/GGGGGG/add_to_cart",
                 "price": 150
@@ -387,6 +397,10 @@
                 "link": "https://transactions.sendowl.com/products/IIIIII/add_to_cart",
                 "price": 450
             }
+        },
+        "infoLinks": {
+            "Are.na": "https://www.are.na/authentic/foundry-untitled",
+            "Fonts In Use": "https://fontsinuse.com/typefaces/45174/untitled-authentic"
         }
     }
 }

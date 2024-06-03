@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function updateTiers() {
         const typeface = typefaceSelect.value;
         const style = styleSelect.value;
-        const tiers = Object.keys(productData[typeface][style]).filter(key => key !== 'label' && key !== 'fontFile');
+        const tiers = Object.keys(productData[typeface][style]).filter(key => key !== 'label' && key !== 'fontFile' && key !== 'glyphs');
         tierSelect.innerHTML = tiers.map(tier => {
             const tierLabel = productData.licenses[tier].label;
             return `<option value="${tier}">${tierLabel}</option>`;
@@ -106,10 +106,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function updateInfoLinks() {
         const typeface = typefaceSelect.value;
+        const style = styleSelect.value;
         const infoLinks = productData[typeface].infoLinks;
-        const glyphs = productData[typeface].glyphs;
         const tier = tierSelect.value;
         const licenseInfo = productData.licenses[tier];
+        const glyphs = productData[typeface][style].glyphs || productData[typeface].glyphs;
         infoLinksContainer.innerHTML = '';
         
         let hasInfo = false;
@@ -149,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
         infoLinksLabel.style.display = hasInfo ? "inline" : "none";
     }    
-    
+
     function openInfoModal() {
         const typeface = typefaceSelect.value;
         const tier = tierSelect.value;
@@ -165,7 +166,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function openGlyphsModal() {
         const typeface = typefaceSelect.value;
-        const glyphs = productData[typeface].glyphs.split('').join(' ');
+        const style = styleSelect.value;
+        const glyphs = productData[typeface][style].glyphs || productData[typeface].glyphs;
         modalGlyphsContent.innerHTML = `<h2>Glyphs</h2><p>${glyphs}</p>`;
         glyphsModal.style.display = 'block';
     }
@@ -203,6 +205,7 @@ document.addEventListener('DOMContentLoaded', function() {
         updateTiers();
         updateFont();
         updateAddToCartLink();
+        updateInfoLinks();
     });
 
     tierSelect.addEventListener('change', () => {
@@ -215,7 +218,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     widthSlider.addEventListener('input', () => {
-        editableBlock.style.fontVariationSettings = `'wght' ${widthSlider.value}, 'wdth' ${widthSlider.value}`;
+        editableBlock.style.fontVariationSettings = `'wght' ${weightSlider.value}, 'wdth' ${widthSlider.value}`;
     });
 
     fontSizeSlider.addEventListener('input', () => {
@@ -249,13 +252,6 @@ document.addEventListener('DOMContentLoaded', function() {
         sendOwl.captureLinks();
         sendOwl.purchaseHandler({ target: tempLink });
         document.body.removeChild(tempLink);
-    });
-
-    typefaceSelect.addEventListener('change', () => {
-        updateStyles();
-        updateFont();
-        updateAddToCartLink();
-        updateInfoLinks();
     });
 
     window.openInfoModal = openInfoModal;

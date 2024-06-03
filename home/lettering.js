@@ -14,22 +14,14 @@ function getRandomInRange(min, max) {
     return Math.floor(randomNumber * (max - min) + min);
 }
 
-// Function to get all SVG files from the directory
-function loadSVGFiles() {
-    return fetch('img/lettering')
+// Function to load SVG file names from the JSON file
+function loadSVGFilesFromJSON(jsonPath) {
+    return fetch(jsonPath)
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
-            return response.text();
-        })
-        .then(text => {
-            const parser = new DOMParser();
-            const doc = parser.parseFromString(text, 'text/html');
-            const svgFiles = Array.from(doc.querySelectorAll('a'))
-                                  .map(a => a.getAttribute('href'))
-                                  .filter(href => href.endsWith('.svg'));
-            return svgFiles;
+            return response.json();
         });
 }
 
@@ -61,8 +53,8 @@ let svgFiles = [];
 let usedSvgFiles = [];
 let lastSVG = '';
 
-// Load SVG file names from the directory and shuffle them
-loadSVGFiles().then(files => {
+// Load SVG file names from the JSON file and shuffle them
+loadSVGFilesFromJSON('lettering.json').then(files => {
     svgFiles = files;
     shuffleArray(svgFiles);
     // Add a click event listener to the frame

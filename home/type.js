@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const infoLinks = productData[typeface].infoLinks;
         const glyphs = productData[typeface].glyphs;
         infoLinksContainer.innerHTML = '';
-    
+
         let hasInfo = false;
 
         if (glyphs) {
@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         infoLinksLabel.style.display = hasInfo ? "inline" : "none";
     }
-    
+
     function openInfoModal() {
         const typeface = typefaceSelect.value;
         const tier = tierSelect.value;

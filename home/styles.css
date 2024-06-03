@@ -50,8 +50,8 @@ p, a, h1 {
     line-height: 1.3;
     font-family: 'Authentic', Arial, sans-serif;
     font-variation-settings: 'wght' 90, 'wdth' 100;
-    }
-    
+}
+
 #editableBlock {
     align-items: normal;
     text-align: left;
@@ -87,19 +87,14 @@ p, a, h1 {
 }
 
 a, a:visited {
-	/* text-transform: uppercase; */
-	display: inline;
-	color: black;
-	text-decoration: none;
+    color: black;
+    text-decoration: none;
     text-decoration: underline;
 }
 
 a:hover {
-	text-decoration: none;
-	/* direction: rtl;
-	unicode-bidi: bidi-override;
-	transform: scale(-1, 1); */
-	cursor: pointer;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 #typemenu {
@@ -127,11 +122,59 @@ label, select, button {
 }
 
 select {
-    padding:2px 0;
+    padding: 2px 0;
 }
 
 button {
     margin-right: .25rem;
+}
+
+/* Text-only style */
+#typemenu label, #typemenu select, #typemenu button {
+    background: none;
+    border: none;
+    font: inherit;
+    color: inherit;
+    padding: 0;
+    margin: 0;
+    line-height: inherit;
+    cursor: pointer;
+}
+
+#typemenu select {
+    text-decoration: underline;
+    -webkit-appearance: none; /* Remove default styling in Chrome/Safari */
+    -moz-appearance: none; /* Remove default styling in Firefox */
+    appearance: none; /* Remove default styling in modern browsers */
+}
+
+#typemenu select:hover, #typemenu button:hover {
+    text-decoration: none;
+}
+
+#typemenu option {
+    font: inherit;
+}
+
+#typemenu .product {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+/* Underlined links */
+#infoLinksContainer button, #addToCartBtn, #viewCartBtn {
+    text-decoration: underline;
+    background: none;
+    border: none;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+#infoLinksContainer button:hover, #addToCartBtn:hover, #viewCartBtn:hover {
+    text-decoration: none;
 }
 
 /* Modal styling */
@@ -197,4 +240,3 @@ button {
 @media (min-width: 1201px) {
     /* Ultra large devices (large desktops and monitors) */
 }
-

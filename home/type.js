@@ -108,31 +108,48 @@ document.addEventListener('DOMContentLoaded', function() {
         const typeface = typefaceSelect.value;
         const infoLinks = productData[typeface].infoLinks;
         const glyphs = productData[typeface].glyphs;
+        const tier = tierSelect.value;
+        const licenseInfo = productData.licenses[tier];
         infoLinksContainer.innerHTML = '';
-
+        
         let hasInfo = false;
-
+        let linksArray = [];
+    
+        // Add License button
+        if (licenseInfo) {
+            hasInfo = true;
+            linksArray.push({ text: 'License', action: openInfoModal });
+        }
+    
+        // Add Glyphs button
         if (glyphs) {
             hasInfo = true;
-            const glyphsButton = document.createElement('button');
-            glyphsButton.textContent = 'Glyphs';
-            glyphsButton.onclick = openGlyphsModal;
-            infoLinksContainer.appendChild(glyphsButton);
+            linksArray.push({ text: 'Glyphs', action: openGlyphsModal });
         }
-
+    
+        // Add other info links
         if (infoLinks) {
             hasInfo = true;
             Object.keys(infoLinks).forEach(label => {
-                const button = document.createElement('button');
-                button.textContent = label;
-                button.onclick = () => window.open(infoLinks[label], '_blank');
-                infoLinksContainer.appendChild(button);
+                linksArray.push({ text: label, action: () => window.open(infoLinks[label], '_blank') });
             });
         }
-
+    
+        // Append all links to the container
+        linksArray.forEach((link, index) => {
+            const button = document.createElement('button');
+            button.textContent = link.text;
+            button.onclick = link.action;
+            infoLinksContainer.appendChild(button);
+            if (index < linksArray.length - 1) {
+                const commaText = document.createTextNode(', ');
+                infoLinksContainer.appendChild(commaText);
+            }
+        });
+    
         infoLinksLabel.style.display = hasInfo ? "inline" : "none";
-    }
-
+    }    
+    
     function openInfoModal() {
         const typeface = typefaceSelect.value;
         const tier = tierSelect.value;

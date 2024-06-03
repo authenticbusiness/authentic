@@ -339,6 +339,7 @@
     },
     "Untitled": {
         "fontFamily": "AUTHENTIC Untitled",
+        "glyphs": "A\u00C0\u00C1\u00C2\u00C3\u00C4\u00C5BC\u00C7\u010CDE\u00C8\u00C9\u00CA\u00CB\u011AFGHI\u00CC\u00CD\u00CE\u00CFJKLMN\u00D1\u0147O\u00D2\u00D3\u00D4\u00D5\u00D6PQR\u0158S\u0160T\u0164U\u00D9\u00DA\u00DB\u00DC\u016EVWXY\u00DDZ\u017DAE\u00D0\u00D8\u00DE\u0152a\u00E0\u00E1\u00E2\u00E3\u00E4\u00E5bc\u00E7\u010Dd\u0111e\u00E8\u00E9\u00EA\u00EB\u011Bfghi\u00EC\u00ED\u00EE\u00EFjklmn\u00F1\u0148o\u00F2\u00F3\u00F4\u00F5\u00F6pqr\u0159s\u0161t\u0165u\u00F9\u00FA\u00FB\u00FC\u016Fvwxy\u00FD\u00FFz\u017E\u00DF\u00E6\u00F0\u00F8\u00FE\u01330123456789_-–—()[]{}#%\"'‘’“”‹›«»*.,:;…!¡?¿//\\|@&§¶·•+−÷×=<>◼$¢£¥€^~\u00B4`˝ˆˇ˘˜¨˙˚¸˛ﬀﬁﬂﬃﬄ",
         "Display": {
             "label": "Display",
             "fontFile": "fonts/untitled-display.woff2",

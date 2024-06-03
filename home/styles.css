@@ -75,7 +75,7 @@ p, a, h1 {
 }
 
 #leonardo3 img {
-    max-width: 80%;
+    max-width: 70%;
     max-height: 300px;
     object-fit: contain;
     filter: invert(21%) sepia(98%) saturate(7478%) hue-rotate(359deg) brightness(108%) contrast(129%);
@@ -97,10 +97,6 @@ a:hover {
     cursor: pointer;
 }
 
-#typemenu {
-    line-height: 2;
-}
-
 #fontControls {
     display: inline-flex;
     align-items: center;
@@ -110,6 +106,74 @@ input[type="range"] {
     margin-left: .25rem;
     margin-right: 1rem;
 }
+
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100px;
+    background: transparent;
+    cursor: pointer;
+}
+
+/* Webkit browsers */
+input[type="range"]::-webkit-slider-runnable-track {
+    width: 100px;
+    height: 1px;
+    background: black;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 1rem; /* The height of the line */
+    width: 1px; /* The width of the vertical line */
+    background: black;
+    margin-top: -0.5rem; /* Adjust to center the thumb on the 1px track */
+    cursor: pointer;
+}
+
+input[type="range"]:focus {
+    outline: none;
+}
+
+/* Mozilla Firefox */
+input[type="range"]::-moz-range-track {
+    width: 100px;
+    height: 1px;
+    background: black;
+}
+
+input[type="range"]::-moz-range-thumb {
+    height: 1rem; /* The height of the line */
+    width: 1px; /* The width of the vertical line */
+    background: black;
+    cursor: pointer;
+}
+
+/* Internet Explorer */
+input[type="range"]::-ms-track {
+    width: 100px;
+    height: 1px;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+input[type="range"]::-ms-fill-lower {
+    background: black;
+}
+
+input[type="range"]::-ms-fill-upper {
+    background: black;
+}
+
+input[type="range"]::-ms-thumb {
+    height: 1rem; /* The height of the line */
+    width: 1px; /* The width of the vertical line */
+    background: black;
+    margin-top: 0.5rem; /* Adjust to center the thumb on the 1px track */
+    cursor: pointer;
+}
+
 
 #infoLinksContainer {
     display: inline;
@@ -130,6 +194,10 @@ button {
 }
 
 /* Text-only style */
+#typemenu {
+    line-height: inherit;
+}
+
 #typemenu label, #typemenu select, #typemenu button {
     background: none;
     border: none;
@@ -139,6 +207,10 @@ button {
     margin: 0;
     line-height: inherit;
     cursor: pointer;
+}
+
+#typemenu label {
+    cursor: default;
 }
 
 #typemenu select {
@@ -157,7 +229,7 @@ button {
 }
 
 #typemenu .product {
-    display: inline-block;
+    display: block;
     margin-right: 1rem;
 }
 

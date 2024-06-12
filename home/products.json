@@ -1,16 +1,24 @@
 {
     "licenses": {
-        "small-business": {
-            "label": "Small Business (under 50 employees)",
-            "info": "The small business license is suitable for companies with under 50 employees."
+        "business-10": {
+            "label": "Business 10",
+            "info": "This license is suitable for companies with under 10 employees."
         },
-        "business": {
-            "label": "Business (under 100 employees)",
-            "info": "The business license is suitable for companies with under 100 employees."
+        "business-50": {
+            "label": "Business 50",
+            "info": "This license is suitable for companies with under 50 employees."
         },
-        "enterprise": {
-            "label": "Enterprise (under 1000 employees)",
-            "info": "The enterprise license is suitable for companies with under 1000 employees."
+        "business-100": {
+            "label": "Business 100",
+            "info": "This license is suitable for companies with under 100 employees."
+        },
+        "business-500": {
+            "label": "Business 500",
+            "info": "This license is suitable for companies with under 500 employees."
+        },
+        "business-1000": {
+            "label": "Business 1000",
+            "info": "This license is suitable for companies with under 1000 employees."
         },
         "WTFPL": {
             "label": "WTFPL (Free)",
@@ -18,13 +26,13 @@
         }
     },
     "AuthenticSans": {
-        "fontFamily": "AUTHENTIC Sans",
-        "glyphs": "\u0041 \u00C0 \u00C1 \u00C3 \u00C4 \u0042 \u0043 \u00C7 \u0044 \u0045 \u00C8 \u00C9 \u00CB \u0046 \u0047 \u0048 \u0049 \u00CC \u00CD \u00CF \u0128 \u004A \u004B \u004C \u004D \u004E \u00D1 \u0143 \u004F \u00D2 \u00D3 \u00D5 \u00D6 \u0050 \u0051 \u0052 \u0053 \u0054 \u0055 \u00D9 \u00DA \u00DC \u0168 \u0056 \u0057 \u0058 \u0059 \u00DD \u0178 \u1EF2 \u005A \u00D8 \u0132 \u0061 \u00E0 \u00E1 \u00E3 \u00E4 \u0062 \u0063 \u00E7 \u0064 \u0065 \u00E8 \u00E9 \u00EB \u0066 \u0067 \u0068 \u0069 \u00EC \u00ED \u00EF \u0129 \u006A \u006B \u006C \u006D \u006E \u00F1 \u0144 \u006F \u00F2 \u00F3 \u00F5 \u00F6 \u0070 \u0071 \u0072 \u0073 \u0074 \u0075 \u00F9 \u00FA \u00FC \u0169 \u0076 \u0077 \u0078 \u0079 \u00FD \u00FF \u1EF3 \u007A \u00F8 \u0133 \u0133 \u0237 \u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039 \u005F \u002D \u2013 \u2014 \u0028 \u0029 \u005B \u005D \u007B \u007D \u0023 \u0025 \u0022 \u0027 \u2018 \u2019 \u201C \u201D \u002A \u002E \u002C \u003A \u003B \u2026 \u0021 \u00A1 \u003F \u00BF \u002F \u002F \u007C \u0040 \u0026 \u2022 \u002B \u003D \u003C \u003E \u007E \u0024 \u00B4 \u0060 \u02DC \u00A8 \u00B8 \u00A9 &#x1F12F;",
+        "fontFamily": "Authentic Sans",
+        "glyphs": "A \u00c0 \u00c1 \u00c3 \u00c4 B C \u00c7 D E \u00c8 \u00c9 \u00cb F G H I \u00cc \u00cd \u00cf \u0128 J K L M N \u00d1 \u0143 O \u00d2 \u00d3 \u00d5 \u00d6 P Q R S T U \u00d9 \u00da \u00dc \u0168 V W X Y \u00dd \u0178 \u1ef2 Z \u00d8 \u0132 a \u00e0 \u00e1 \u00e3 \u00e4 b c \u00e7 d e \u00e8 \u00e9 \u00eb f g h i \u00ec \u00ed \u00ef \u0129 j k l m n \u00f1 \u0144 o \u00f2 \u00f3 \u00f5 \u00f6 p q r s t u \u00f9 \u00fa \u00fc \u0169 v w x y \u00fd \u00ff \u1ef3 z \u00f8 \u0133 \u0133 \u0237 0 1 2 3 4 5 6 7 8 9 _ - \u2013 \u2014 ( ) [ ] { } # % \" ' \u2018 \u2019 \u201c \u201d * . , : ; \u2026 ! \u00a1 ? \u00bf / / | @ & \u2022 + = < > ~ $ \u00b4 ` \u02dc \u00a8 \u00b8 \u00a9 &#x1F12F;",
         "60": {
             "label": "60",
             "fontFile": "fonts/authentic-sans-60.woff2",
             "WTFPL": {
-                "link": "https://transactions.sendowl.com/products/AAAAA/add_to_cart",
+                "link": "https://transactions.sendowl.com/products/79204618/CB2535BD/add_to_cart",
                 "price": 0
             }
         },
@@ -32,7 +40,7 @@
             "label": "90",
             "fontFile": "fonts/authentic-sans-90.woff2",
             "WTFPL": {
-                "link": "https://transactions.sendowl.com/products/BBBBB/add_to_cart",
+                "link": "https://transactions.sendowl.com/products/79204624/1D941653/add_to_cart",
                 "price": 0
             }
         },
@@ -40,7 +48,7 @@
             "label": "130",
             "fontFile": "fonts/authentic-sans-130.woff2",
             "WTFPL": {
-                "link": "https://transactions.sendowl.com/products/CCCCC/add_to_cart",
+                "link": "https://transactions.sendowl.com/products/79204630/75520BD1/add_to_cart",
                 "price": 0
             }
         },
@@ -48,7 +56,7 @@
             "label": "150",
             "fontFile": "fonts/authentic-sans-150.woff2",
             "WTFPL": {
-                "link": "https://transactions.sendowl.com/products/DDDDD/add_to_cart",
+                "link": "https://transactions.sendowl.com/products/79204636/9D27C85F/add_to_cart",
                 "price": 0
             }
         },
@@ -56,7 +64,7 @@
             "label": "Condensed 60",
             "fontFile": "fonts/authentic-sans-condensed-60.woff2",
             "WTFPL": {
-                "link": "https://transactions.sendowl.com/products/EEEEE/add_to_cart",
+                "link": "https://transactions.sendowl.com/products/79204642/4276D6C8/add_to_cart",
                 "price": 0
             }
         },
@@ -64,7 +72,7 @@
             "label": "Condensed 90",
             "fontFile": "fonts/authentic-sans-condensed-90.woff2",
             "WTFPL": {
-                "link": "https://transactions.sendowl.com/products/FFFFF/add_to_cart",
+                "link": "https://transactions.sendowl.com/products/79204648/950ADF72/add_to_cart",
                 "price": 0
             }
         },
@@ -72,7 +80,7 @@
             "label": "Condensed 130",
             "fontFile": "fonts/authentic-sans-condensed-130.woff2",
             "WTFPL": {
-                "link": "https://transactions.sendowl.com/products/GGGGG/add_to_cart",
+                "link": "https://transactions.sendowl.com/products/79204654/9690CCDE/add_to_cart",
                 "price": 0
             }
         },
@@ -80,12 +88,12 @@
             "label": "Condensed 150",
             "fontFile": "fonts/authentic-sans-condensed-150.woff2",
             "WTFPL": {
-                "link": "https://transactions.sendowl.com/products/HHHHH/add_to_cart",
+                "link": "https://transactions.sendowl.com/products/79204660/0748E68C/add_to_cart",
                 "price": 0
             }
         },
         "Family": {
-            "label": "Family Package",
+            "label": "Family",
             "fontFile": null,
             "WTFPL": {
                 "link": "https://transactions.sendowl.com/products/77987752/082A2418/add_to_cart",
@@ -99,198 +107,294 @@
         }
     },
     "AuthenticSansPro": {
-        "fontFamily": "AUTHENTIC Sans Pro",
-        "glyphs": "\u0041 \u00C0 \u00C1 \u00C2 \u00C3 \u00C4 \u00C5 \u0100 \u0102 \u0104 \u0042 \u1E02 \u0043 \u00C7 \u0106 \u010A \u010C \u0044 \u1E0A \u0045 \u00C8 \u00C9 \u00CA \u00CB \u0112 \u0114 \u0118 \u0046 \u1E1E \u0047 \u011E \u0120 \u0048 \u0049 \u00CC \u00CD \u00CE \u00CF \u0128 \u012A \u012C \u0130 \u004A \u004B \u004C \u004D \u1E40 \u004E \u00D1 \u0143 \u004F \u00D2 \u00D3 \u00D4 \u00D5 \u00D6 \u014C \u014E \u0150 \u0050 \u1E56 \u0051 \u0052 \u0158 \u0053 \u015A \u015E \u0160 \u0218 \u1E60 \u0054 \u0162 \u021A \u1E6A \u0055 \u00D9 \u00DA \u00DB \u00DC \u0168 \u016A \u016C \u0170 \u01D3 \u0056 \u0057 \u0058 \u0059 \u00DD \u0178 \u1EF2 \u005A \u0179 \u017B \u017D \u00C6 \u00D0 \u00D8 \u00DE \u0110 \u0132 \u013F \u0141 \u0152 \u1E9E \u0061 \u00E0 \u00E1 \u00E2 \u00E3 \u00E4 \u00E5 \u0101 \u0103 \u0105 \u0062 \u1E03 \u0063 \u00E7 \u0107 \u0109 \u010B \u010D \u0064 \u1E0B \u0065 \u00E8 \u00E9 \u00EA \u00EB \u0113 \u0115 \u0119 \u0066 \u1E1F \u0067 \u011F \u0121 \u0068 \u0069 \u00EC \u00ED \u00EE \u00EF \u0129 \u012B \u012D \u006A \u006B \u006C \u006D \u1E41 \u006E \u00F1 \u0144 \u0148 \u006F \u00F2 \u00F3 \u00F4 \u00F5 \u00F6 \u014D \u014F \u0151 \u0070 \u1E57 \u0071 \u0072 \u0159 \u0073 \u015B \u015F \u0161 \u0219 \u1E61 \u0074 \u0163 \u021B \u1E6B \u0075 \u00F9 \u00FA \u00FB \u00FC \u0169 \u016B \u016D \u0171 \u01D4 \u0076 \u0077 \u0078 \u0079 \u00FD \u00FF \u1EF3 \u007A \u017A \u017C \u017E \u00DF \u00E6 \u00F0 \u00F8 \u00FE \u0111 \u0133 \u0133 \u0237 \u00AA \u00BA \u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039 \u005F \u002D \u2010 \u2013 \u2014 \u0028 \u0029 \u005B \u005D \u007B \u007D \u0023 \u0025 \u0022 \u0027 \u2018 \u2019 \u201C \u201D \u201A \u201E \u00AB \u00BB \u002A \u002E \u002C \u003A \u003B \u2026 \u0021 \u00A1 \u003F \u00BF \u002F \u002F \u007C \u0040 \u0026 \u2022 \u002B \u003D \u003C \u003E \u007E \u0024 \u00B4 \u0060 \u02C6 \u02C7 \u02D8 \u02DC \u00AF \u00A8 \u02D9 \u02DA \u00B8 \u02DB \u00A9 \u00AE \u00B0 &#x1F12F; \u00B9 \u00B2 \u00B3",
+        "fontFamily": "Authentic Sans Pro",
+        "glyphs": "A \u00c0 \u00c1 \u00c2 \u00c3 \u00c4 \u00c5 \u0100 \u0102 \u0104 B \u1e02 C \u00c7 \u0106 \u010a \u010c D \u1e0a E \u00c8 \u00c9 \u00ca \u00cb \u0112 \u0114 \u0118 F \u1e1e G \u011e \u0120 H I \u00cc \u00cd \u00ce \u00cf \u0128 \u012a \u012c \u0130 J K L M \u1e40 N \u00d1 \u0143 O \u00d2 \u00d3 \u00d4 \u00d5 \u00d6 \u014c \u014e \u0150 P \u1e56 Q R \u0158 S \u015a \u015e \u0160 \u0218 \u1e60 T \u0162 \u021a \u1e6a U \u00d9 \u00da \u00db \u00dc \u0168 \u016a \u016c \u0170 \u01d3 V W X Y \u00dd \u0178 \u1ef2 Z \u0179 \u017b \u017d \u00c6 \u00d0 \u00d8 \u00de \u0110 \u0132 \u013f \u0141 \u0152 \u1e9e a \u00e0 \u00e1 \u00e2 \u00e3 \u00e4 \u00e5 \u0101 \u0103 \u0105 b \u1e03 c \u00e7 \u0107 \u0109 \u010b \u010d d \u1e0b e \u00e8 \u00e9 \u00ea \u00eb \u0113 \u0115 \u0119 f \u1e1f g \u011f \u0121 h i \u00ec \u00ed \u00ee \u00ef \u0129 \u012b \u012d j k l m \u1e41 n \u00f1 \u0144 \u0148 o \u00f2 \u00f3 \u00f4 \u00f5 \u00f6 \u014d \u014f \u0151 p \u1e57 q r \u0159 s \u015b \u015f \u0161 \u0219 \u1e61 t \u0163 \u021b \u1e6b u \u00f9 \u00fa \u00fb \u00fc \u0169 \u016b \u016d \u0171 \u01d4 v w x y \u00fd \u00ff \u1ef3 z \u017a \u017c \u017e \u00df \u00e6 \u00f0 \u00f8 \u00fe \u0111 \u0133 \u0133 \u0237 \u00aa \u00ba 0 1 2 3 4 5 6 7 8 9 _ - \u2010 \u2013 \u2014 ( ) [ ] { } # % \" ' \u2018 \u2019 \u201c \u201d \u201a \u201e \u00ab \u00bb * . , : ; \u2026 ! \u00a1 ? \u00bf / / | @ & \u2022 + = < > ~ $ \u00b4 ` \u02c6 \u02c7 \u02d8 \u02dc \u00af \u00a8 \u02d9 \u02da \u00b8 \u02db \u00a9 \u00ae \u00b0 &#x1F12F; \u00b9 \u00b2 \u00b3",
         "60": {
             "label": "60",
             "fontFile": "fonts/authentic-sans-pro-60.woff2",
-            "small-business": {
-                "link": "https://transactions.sendowl.com/products/XXXXX/add_to_cart",
+            "business-10": {
+                "link": "https://transactions.sendowl.com/products/79204667/4CBD5599/add_to_cart",
                 "price": 100
             },
-            "business": {
-                "link": "https://transactions.sendowl.com/products/YYYYY/add_to_cart",
-                "price": 200
+            "business-50": {
+                "link": "https://transactions.sendowl.com/products/79204668/1872CE00/add_to_cart",
+                "price": 270
             },
-            "enterprise": {
-                "link": "https://transactions.sendowl.com/products/ZZZZZ/add_to_cart",
-                "price": 300
+            "business-100": {
+                "link": "https://transactions.sendowl.com/products/79204669/AB950CD2/add_to_cart",
+                "price": 410
+            },
+            "business-500": {
+                "link": "https://transactions.sendowl.com/products/79204670/4CFD9A86/add_to_cart",
+                "price": 1080
+            },
+            "business-1000": {
+                "link": "https://transactions.sendowl.com/products/79204671/058ED07E/add_to_cart",
+                "price": 1640
             }
         },
         "90": {
             "label": "90",
             "fontFile": "fonts/authentic-sans-pro-90.woff2",
-            "small-business": {
-                "link": "https://transactions.sendowl.com/products/AAAAA/add_to_cart",
+            "business-10": {
+                "link": "https://transactions.sendowl.com/products/79204673/424E2443/add_to_cart",
                 "price": 100
             },
-            "business": {
-                "link": "https://transactions.sendowl.com/products/BBBBB/add_to_cart",
-                "price": 200
+            "business-50": {
+                "link": "https://transactions.sendowl.com/products/79204674/E9592592/add_to_cart",
+                "price": 270
             },
-            "enterprise": {
-                "link": "https://transactions.sendowl.com/products/CCCCC/add_to_cart",
-                "price": 300
+            "business-100": {
+                "link": "https://transactions.sendowl.com/products/79204675/247C7411/add_to_cart",
+                "price": 410
+            },
+            "business-500": {
+                "link": "https://transactions.sendowl.com/products/79204676/8C733371/add_to_cart",
+                "price": 1080
+            },
+            "business-1000": {
+                "link": "https://transactions.sendowl.com/products/79204677/003FAC71/add_to_cart",
+                "price": 1640
             }
         },
         "130": {
             "label": "130",
             "fontFile": "fonts/authentic-sans-pro-130.woff2",
-            "small-business": {
-                "link": "https://transactions.sendowl.com/products/DDDDD/add_to_cart",
+            "business-10": {
+                "link": "https://transactions.sendowl.com/products/79204679/60CC6250/add_to_cart",
                 "price": 100
             },
-            "business": {
-                "link": "https://transactions.sendowl.com/products/EEEEE/add_to_cart",
-                "price": 200
+            "business-50": {
+                "link": "https://transactions.sendowl.com/products/79204680/44AC0B61/add_to_cart",
+                "price": 270
             },
-            "enterprise": {
-                "link": "https://transactions.sendowl.com/products/FFFFF/add_to_cart",
-                "price": 300
+            "business-100": {
+                "link": "https://transactions.sendowl.com/products/79204681/1179656C/add_to_cart",
+                "price": 410
+            },
+            "business-500": {
+                "link": "https://transactions.sendowl.com/products/79204682/0C8CA4D3/add_to_cart",
+                "price": 1080
+            },
+            "business-1000": {
+                "link": "https://transactions.sendowl.com/products/79204683/EE535836/add_to_cart",
+                "price": 1640
             }
         },
         "150": {
             "label": "150",
             "fontFile": "fonts/authentic-sans-pro-150.woff2",
-            "small-business": {
-                "link": "https://transactions.sendowl.com/products/GGGGG/add_to_cart",
+            "business-10": {
+                "link": "https://transactions.sendowl.com/products/79204685/E0952C72/add_to_cart",
                 "price": 100
             },
-            "business": {
-                "link": "https://transactions.sendowl.com/products/HHHHH/add_to_cart",
-                "price": 200
+            "business-50": {
+                "link": "https://transactions.sendowl.com/products/79204686/E7263B6C/add_to_cart",
+                "price": 270
             },
-            "enterprise": {
-                "link": "https://transactions.sendowl.com/products/IIIII/add_to_cart",
-                "price": 300
+            "business-100": {
+                "link": "https://transactions.sendowl.com/products/79204687/F7254A4E/add_to_cart",
+                "price": 410
+            },
+            "business-500": {
+                "link": "https://transactions.sendowl.com/products/79204688/858A7A1D/add_to_cart",
+                "price": 1080
+            },
+            "business-1000": {
+                "link": "https://transactions.sendowl.com/products/79204689/4A87E07D/add_to_cart",
+                "price": 1640
             }
         },
         "Condensed60": {
             "label": "Condensed 60",
             "fontFile": "fonts/authentic-sans-pro-condensed-60.woff2",
-            "small-business": {
-                "link": "https://transactions.sendowl.com/products/JJJJJ/add_to_cart",
+            "business-10": {
+                "link": "https://transactions.sendowl.com/products/79204691/CF26EC32/add_to_cart",
                 "price": 100
             },
-            "business": {
-                "link": "https://transactions.sendowl.com/products/KKKKK/add_to_cart",
-                "price": 200
+            "business-50": {
+                "link": "https://transactions.sendowl.com/products/79204692/46516C66/add_to_cart",
+                "price": 270
             },
-            "enterprise": {
-                "link": "https://transactions.sendowl.com/products/LLLLL/add_to_cart",
-                "price": 300
+            "business-100": {
+                "link": "https://transactions.sendowl.com/products/79204693/42EC7C64/add_to_cart",
+                "price": 410
+            },
+            "business-500": {
+                "link": "https://transactions.sendowl.com/products/79204694/0B2F2ED3/add_to_cart",
+                "price": 1080
+            },
+            "business-1000": {
+                "link": "https://transactions.sendowl.com/products/79204695/54424761/add_to_cart",
+                "price": 1640
             }
         },
         "Condensed90": {
             "label": "Condensed 90",
             "fontFile": "fonts/authentic-sans-pro-condensed-90.woff2",
-            "small-business": {
-                "link": "https://transactions.sendowl.com/products/MMMMM/add_to_cart",
+            "business-10": {
+                "link": "https://transactions.sendowl.com/products/79204697/F4E4DC74/add_to_cart",
                 "price": 100
             },
-            "business": {
-                "link": "https://transactions.sendowl.com/products/NNNNN/add_to_cart",
-                "price": 200
+            "business-50": {
+                "link": "https://transactions.sendowl.com/products/79204698/42CCE66D/add_to_cart",
+                "price": 270
             },
-            "enterprise": {
-                "link": "https://transactions.sendowl.com/products/OOOOO/add_to_cart",
-                "price": 300
+            "business-100": {
+                "link": "https://transactions.sendowl.com/products/79204699/6D18BBF5/add_to_cart",
+                "price": 410
+            },
+            "business-500": {
+                "link": "https://transactions.sendowl.com/products/79204700/0F580F2E/add_to_cart",
+                "price": 1080
+            },
+            "business-1000": {
+                "link": "https://transactions.sendowl.com/products/79204701/0F8C9F36/add_to_cart",
+                "price": 1640
             }
         },
         "Condensed130": {
             "label": "Condensed 130",
             "fontFile": "fonts/authentic-sans-pro-condensed-130.woff2",
-            "small-business": {
-                "link": "https://transactions.sendowl.com/products/PPPPP/add_to_cart",
+            "business-10": {
+                "link": "https://transactions.sendowl.com/products/79204703/7EC2C95E/add_to_cart",
                 "price": 100
             },
-            "business": {
-                "link": "https://transactions.sendowl.com/products/QQQQQ/add_to_cart",
-                "price": 200
+            "business-50": {
+                "link": "https://transactions.sendowl.com/products/79204704/D3DF11D2/add_to_cart",
+                "price": 270
             },
-            "enterprise": {
-                "link": "https://transactions.sendowl.com/products/RRRRR/add_to_cart",
-                "price": 300
+            "business-100": {
+                "link": "https://transactions.sendowl.com/products/79204705/9F7B4426/add_to_cart",
+                "price": 410
+            },
+            "business-500": {
+                "link": "https://transactions.sendowl.com/products/79204706/5D98D681/add_to_cart",
+                "price": 1080
+            },
+            "business-1000": {
+                "link": "https://transactions.sendowl.com/products/79204707/EE538D63/add_to_cart",
+                "price": 1640
             }
         },
         "Condensed150": {
             "label": "Condensed 150",
             "fontFile": "fonts/authentic-sans-pro-condensed-150.woff2",
-            "small-business": {
-                "link": "https://transactions.sendowl.com/products/SSSSS/add_to_cart",
+            "business-10": {
+                "link": "https://transactions.sendowl.com/products/79204709/73B3E494/add_to_cart",
                 "price": 100
             },
-            "business": {
-                "link": "https://transactions.sendowl.com/products/TTTTT/add_to_cart",
-                "price": 200
+            "business-50": {
+                "link": "https://transactions.sendowl.com/products/79204710/AAE9CE1A/add_to_cart",
+                "price": 270
             },
-            "enterprise": {
-                "link": "https://transactions.sendowl.com/products/UUUUU/add_to_cart",
-                "price": 300
-            }
-        },
-        "Family": {
-            "label": "Full Family Package",
-            "fontFile": null,
-            "small-business": {
-                "link": "https://transactions.sendowl.com/products/78637141/C7654427/add_to_cart",
-                "price": 600
+            "business-100": {
+                "link": "https://transactions.sendowl.com/products/79204711/B33542CD/add_to_cart",
+                "price": 410
             },
-            "business": {
-                "link": "https://transactions.sendowl.com/products/78637141/C7654427/add_to_cart",
-                "price": 1200
+            "business-500": {
+                "link": "https://transactions.sendowl.com/products/79204712/0AAF7D0C/add_to_cart",
+                "price": 1080
             },
-            "enterprise": {
-                "link": "https://transactions.sendowl.com/products/78637141/C7654427/add_to_cart",
-                "price": 1800
+            "business-1000": {
+                "link": "https://transactions.sendowl.com/products/79204713/03408B8B/add_to_cart",
+                "price": 1640
             }
         },
         "RegularFamily": {
-            "label": "Regular Family Package",
+            "label": "Regular Family",
             "fontFile": null,
-            "small-business": {
-                "link": "https://transactions.sendowl.com/products/AAAAAA/add_to_cart",
-                "price": 300
+            "business-10": {
+                "link": "https://transactions.sendowl.com/products/79204715/33CFAB0F/add_to_cart",
+                "price": 320
             },
-            "business": {
-                "link": "https://transactions.sendowl.com/products/BBBBBB/add_to_cart",
-                "price": 600
+            "business-50": {
+                "link": "https://transactions.sendowl.com/products/79204716/AEA36021/add_to_cart",
+                "price": 840
             },
-            "enterprise": {
-                "link": "https://transactions.sendowl.com/products/CCCCCC/add_to_cart",
-                "price": 900
+            "business-100": {
+                "link": "https://transactions.sendowl.com/products/79204717/522DA51C/add_to_cart",
+                "price": 1270
+            },
+            "business-500": {
+                "link": "https://transactions.sendowl.com/products/79204718/66457C22/add_to_cart",
+                "price": 3330
+            },
+            "business-1000": {
+                "link": "https://transactions.sendowl.com/products/79204719/C63BC2FF/add_to_cart",
+                "price": 5050
             }
         },
         "CondensedFamily": {
-            "label": "Condensed Family Package",
+            "label": "Condensed Family",
             "fontFile": null,
-            "small-business": {
-                "link": "https://transactions.sendowl.com/products/DDDDDD/add_to_cart",
-                "price": 300
+            "business-10": {
+                "link": "https://transactions.sendowl.com/products/79204721/80395429/add_to_cart",
+                "price": 320
             },
-            "business": {
-                "link": "https://transactions.sendowl.com/products/EEEEEE/add_to_cart",
-                "price": 600
+            "business-50": {
+                "link": "https://transactions.sendowl.com/products/79204722/E5C91CB2/add_to_cart",
+                "price": 840
             },
-            "enterprise": {
-                "link": "https://transactions.sendowl.com/products/FFFFFF/add_to_cart",
-                "price": 900
+            "business-100": {
+                "link": "https://transactions.sendowl.com/products/79204723/41EB4E06/add_to_cart",
+                "price": 1270
+            },
+            "business-500": {
+                "link": "https://transactions.sendowl.com/products/79204724/6E919C9C/add_to_cart",
+                "price": 3330
+            },
+            "business-1000": {
+                "link": "https://transactions.sendowl.com/products/79204725/43D12C3B/add_to_cart",
+                "price": 5050
+            }
+        },
+        "Family": {
+            "label": "Family",
+            "fontFile": null,
+            "business-10": {
+                "link": "https://transactions.sendowl.com/products/79204727/53508B15/add_to_cart",
+                "price": 610
+            },
+            "business-50": {
+                "link": "https://transactions.sendowl.com/products/79204728/4A9964E1/add_to_cart",
+                "price": 1590
+            },
+            "business-100": {
+                "link": "https://transactions.sendowl.com/products/79204729/F3D8DF49/add_to_cart",
+                "price": 2410
+            },
+            "business-500": {
+                "link": "https://transactions.sendowl.com/products/79204730/3EC1E184/add_to_cart",
+                "price": 6330
+            },
+            "business-1000": {
+                "link": "https://transactions.sendowl.com/products/79204731/A0DB1E74/add_to_cart",
+                "price": 9590
             }
         },
         "Variable": {
             "label": "Variable Font",
             "fontFile": "fonts/authentic-sans-pro-vf.ttf",
-            "small-business": {
-                "link": "https://transactions.sendowl.com/products/VVVVV/add_to_cart",
-                "price": 500
+            "business-10": {
+                "link": "https://transactions.sendowl.com/products/79204733/79F7E50B/add_to_cart",
+                "price": 750
             },
-            "business": {
-                "link": "https://transactions.sendowl.com/products/WWWWW/add_to_cart",
-                "price": 1000
+            "business-50": {
+                "link": "https://transactions.sendowl.com/products/79204734/6FB4373B/add_to_cart",
+                "price": 1970
             },
-            "enterprise": {
-                "link": "https://transactions.sendowl.com/products/XXXXX/add_to_cart",
-                "price": 1500
+            "business-100": {
+                "link": "https://transactions.sendowl.com/products/79204735/C622AC30/add_to_cart",
+                "price": 2980
+            },
+            "business-500": {
+                "link": "https://transactions.sendowl.com/products/79204736/782C87AE/add_to_cart",
+                "price": 7830
+            },
+            "business-1000": {
+                "link": "https://transactions.sendowl.com/products/79204737/32A9FDCE/add_to_cart",
+                "price": 11860
             }
         },
         "infoLinks": {
@@ -300,22 +404,30 @@
         }
     },
     "Chinatown": {
-        "fontFamily": "AUTHENTIC Chinatown",
-        "glyphs": "\u0041 \u0042 \u0043 \u0044 \u0045 \u0046 \u0047 \u0048 \u0049 \u004A \u004B \u004C \u004D \u004E \u004F \u0050 \u0051 \u0052 \u0053 \u0054 \u0055 \u0056 \u0057 \u0058 \u0059 \u005A \u0061 \u0062 \u0063 \u0064 \u0065 \u0066 \u0067 \u0068 \u0069 \u006A \u006B \u006C \u006D \u006E \u006F \u0070 \u0071 \u0072 \u0073 \u0074 \u0075 \u0076 \u0077 \u0078 \u0079 \u007A \u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039 \u002D \u002E \u0021",
+        "fontFamily": "Chinatown",
+        "glyphs": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9 - . !",
         "Regular": {
             "label": "Regular",
             "fontFile": "fonts/chinatown-regular.woff2",
-            "small-business": {
-                "link": "https://transactions.sendowl.com/products/78484022/F7CA8C75/add_to_cart",
-                "price": 70
+            "business-10": {
+                "link": "https://transactions.sendowl.com/products/79204739/8D12227D/add_to_cart",
+                "price": 100
             },
-            "business": {
-                "link": "https://transactions.sendowl.com/products/78484022/F7CA8C75/add_to_cart",
-                "price": 140
+            "business-50": {
+                "link": "https://transactions.sendowl.com/products/79204740/F6A492A4/add_to_cart",
+                "price": 270
             },
-            "enterprise": {
-                "link": "https://transactions.sendowl.com/products/78484022/F7CA8C75/add_to_cart",
-                "price": 210
+            "business-100": {
+                "link": "https://transactions.sendowl.com/products/79204741/A79F0137/add_to_cart",
+                "price": 410
+            },
+            "business-500": {
+                "link": "https://transactions.sendowl.com/products/79204742/722A0B6C/add_to_cart",
+                "price": 1080
+            },
+            "business-1000": {
+                "link": "https://transactions.sendowl.com/products/79204743/17B42329/add_to_cart",
+                "price": 1640
             }
         },
         "infoLinks": {
@@ -323,22 +435,30 @@
         }
     },
     "Classified": {
-        "fontFamily": "AUTHENTIC Classified",
-        "glyphs": "\u0041 \u0042 \u0043 \u0044 \u0045 \u0046 \u0047 \u0048 \u0049 \u004A \u004B \u004C \u004D \u004E \u004F \u0050 \u0051 \u0052 \u0053 \u0054 \u0055 \u0056 \u0057 \u0058 \u0059 \u005A \u0061 \u0062 \u0063 \u0064 \u0065 \u0066 \u0067 \u0068 \u0069 \u006A \u006B \u006C \u006D \u006E \u006F \u0070 \u0071 \u0072 \u0073 \u0074 \u0075 \u0076 \u0077 \u0078 \u0079 \u007A \u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039 \u005F \u002D \u2013 \u2014 \u0028 \u0029 \u005B \u005D \u0023 \u0027 \u0022 \u2018 \u2019 \u201C \u201D \u002A \u002E \u002C \u003A \u003B \u0021 \u003F \u002F \u002F \u007C \u0040 \u0026 \u002B \u003D \u0024 \u00A9",
+        "fontFamily": "Classified",
+        "glyphs": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9 _ - \u2013 \u2014 ( ) [ ] # ' \" \u2018 \u2019 \u201c \u201d * . , : ; ! ? / / | @ & + = $ \u00a9",
         "Regular": {
             "label": "Regular",
             "fontFile": "fonts/classified-regular.woff2",
-            "small-business": {
-                "link": "https://transactions.sendowl.com/products/77970224/3020C538/add_to_cart",
-                "price": 60
+            "business-10": {
+                "link": "https://transactions.sendowl.com/products/79204745/6D9ED1B4/add_to_cart",
+                "price": 100
             },
-            "business": {
-                "link": "https://transactions.sendowl.com/products/77970224/3020C538/add_to_cart",
-                "price": 120
+            "business-50": {
+                "link": "https://transactions.sendowl.com/products/79204746/D4BF8109/add_to_cart",
+                "price": 270
             },
-            "enterprise": {
-                "link": "https://transactions.sendowl.com/products/77970224/3020C538/add_to_cart",
-                "price": 180
+            "business-100": {
+                "link": "https://transactions.sendowl.com/products/79204747/5D83357C/add_to_cart",
+                "price": 410
+            },
+            "business-500": {
+                "link": "https://transactions.sendowl.com/products/79204748/EDCD85D9/add_to_cart",
+                "price": 1080
+            },
+            "business-1000": {
+                "link": "https://transactions.sendowl.com/products/79204749/5AB48B77/add_to_cart",
+                "price": 1640
             }
         },
         "infoLinks": {
@@ -346,56 +466,80 @@
         }
     },
     "Untitled": {
-        "fontFamily": "AUTHENTIC Untitled",
-        "glyphs": "A \u00C0 \u00C1 \u00C2 \u00C3 \u00C4 \u00C5 B C \u00C7 \u010C D E \u00C8 \u00C9 \u00CA \u00CB \u011A F G H I \u00CC \u00CD \u00CE \u00CF J K L M N \u00D1 \u0147 O \u00D2 \u00D3 \u00D4 \u00D5 \u00D6 P Q R \u0158 S \u0160 T \u0164 U \u00D9 \u00DA \u00DB \u00DC \u016E V W X Y \u00DD Z \u017D A E \u00D0 \u00D8 \u00DE \u0152 a \u00E0 \u00E1 \u00E2 \u00E3 \u00E4 \u00E5 b c \u00E7 \u010D d \u0111 e \u00E8 \u00E9 \u00EA \u00EB \u011B f g h i \u00EC \u00ED \u00EE \u00EF j k l m n \u00F1 \u0148 o \u00F2 \u00F3 \u00F4 \u00F5 \u00F6 p q r \u0159 s \u0161 t \u0165 u \u00F9 \u00FA \u00FB \u00FC \u016F v w x y \u00FD \u00FF z \u017E \u00DF \u00E6 \u00F0 \u00F8 \u00FE \u0133 0 1 2 3 4 5 6 7 8 9 _ - \u2013 \u2014 \u0028 \u0029 \u005B \u005D \u007B \u007D \u0023 \u0025 \u0022 \u0027 \u2018 \u2019 \u201C \u201D \u2039 \u203A \u00AB \u00BB \u002A \u002E \u002C \u003A \u003B \u2026 \u0021 \u00A1 \u003F \u00BF \u002F \u002F \u005C \u007C \u0040 \u0026 \u00A7 \u00B6 \u00B7 \u2022 \u002B \u2212 \u00F7 \u00D7 \u003D \u003C \u003E \u25FC \u0024 \u00A2 \u00A3 \u00A5 \u20AC \u005E \u007E \u00B4 \u0060 \u02DD \u02C6 \u02C7 \u02D8 \u02DC \u00A8 \u02D9 \u02DA \u00B8 \u02DB \uFB00 \uFB01 \uFB02 \uFB03 \uFB04",
+        "fontFamily": "Untitled",
+        "glyphs": "A \u00c0 \u00c1 \u00c2 \u00c3 \u00c4 \u00c5 B C \u00c7 \u010c D E \u00c8 \u00c9 \u00ca \u00cb \u011a F G H I \u00cc \u00cd \u00ce \u00cf J K L M N \u00d1 \u0147 O \u00d2 \u00d3 \u00d4 \u00d5 \u00d6 P Q R \u0158 S \u0160 T \u0164 U \u00d9 \u00da \u00db \u00dc \u016e V W X Y \u00dd Z \u017d A E \u00d0 \u00d8 \u00de \u0152 a \u00e0 \u00e1 \u00e2 \u00e3 \u00e4 \u00e5 b c \u00e7 \u010d d \u0111 e \u00e8 \u00e9 \u00ea \u00eb \u011b f g h i \u00ec \u00ed \u00ee \u00ef j k l m n \u00f1 \u0148 o \u00f2 \u00f3 \u00f4 \u00f5 \u00f6 p q r \u0159 s \u0161 t \u0165 u \u00f9 \u00fa \u00fb \u00fc \u016f v w x y \u00fd \u00ff z \u017e \u00df \u00e6 \u00f0 \u00f8 \u00fe \u0133 0 1 2 3 4 5 6 7 8 9 _ - \u2013 \u2014 ( ) [ ] { } # % \" ' \u2018 \u2019 \u201c \u201d \u2039 \u203a \u00ab \u00bb * . , : ; \u2026 ! \u00a1 ? \u00bf / / \\ | @ & \u00a7 \u00b6 \u00b7 \u2022 + \u2212 \u00f7 \u00d7 = < > \u25fc $ \u00a2 \u00a3 \u00a5 \u20ac ^ ~ \u00b4 ` \u02dd \u02c6 \u02c7 \u02d8 \u02dc \u00a8 \u02d9 \u02da \u00b8 \u02db \ufb00 \ufb01 \ufb02 \ufb03 \ufb04",
         "Display": {
             "label": "Display",
             "fontFile": "fonts/untitled-display.woff2",
-            "small-business": {
-                "link": "https://transactions.sendowl.com/products/HHHHH/add_to_cart",
-                "price": 80
+            "business-10": {
+                "link": "https://transactions.sendowl.com/products/79204751/AC762BEF/add_to_cart",
+                "price": 100
             },
-            "business": {
-                "link": "https://transactions.sendowl.com/products/77723351/1A029BF3/add_to_cart",
-                "price": 160
+            "business-50": {
+                "link": "https://transactions.sendowl.com/products/79204752/E64712B7/add_to_cart",
+                "price": 270
             },
-            "enterprise": {
-                "link": "https://transactions.sendowl.com/products/JJJJJ/add_to_cart",
-                "price": 240
+            "business-100": {
+                "link": "https://transactions.sendowl.com/products/79204753/A393C1E1/add_to_cart",
+                "price": 410
+            },
+            "business-500": {
+                "link": "https://transactions.sendowl.com/products/79204754/E080B43C/add_to_cart",
+                "price": 1080
+            },
+            "business-1000": {
+                "link": "https://transactions.sendowl.com/products/79204755/2413BA6A/add_to_cart",
+                "price": 1640
             }
         },
         "Text": {
             "label": "Text",
             "fontFile": "fonts/untitled-text.woff2",
-            "glyphs": "\u0041 \u0042 \u0043 \u0044 \u0045 \u0046 \u0047 \u0048 \u0049 \u004A \u004B \u004C \u004D \u004E \u004F \u0050 \u0051 \u0052 \u0053 \u0054 \u0055 \u0056 \u0057 \u0058 \u0059 \u005A \u0061 \u0062 \u0063 \u0064 \u0065 \u0066 \u0067 \u0068 \u0069 \u006A \u006B \u006C \u006D \u006E \u006F \u0070 \u0071 \u0072 \u0073 \u0074 \u0075 \u0076 \u0077 \u0078 \u0079 \u007A \u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039 \u005F \u002D \u2013 \u2014 \u0028 \u0029 \u005B \u005D \u007B \u007D \u0023 \u0025 \u0022 \u0027 \u2018 \u2019 \u201C \u201D \u002A \u002E \u002C \u003A \u003B \u2026 \u0021 \u003F \u002F \u002F \u007C \u0040 \u0026 \u2022 \u002B \u003D \u003C \u003E \u007E \u0024 \u00A9",
-            "small-business": {
-                "link": "https://transactions.sendowl.com/products/KKKKK/add_to_cart",
-                "price": 90
+            "glyphs": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9 _ - \u2013 \u2014 ( ) [ ] { } # % \" ' \u2018 \u2019 \u201c \u201d * . , : ; \u2026 ! ? / / | @ & \u2022 + = < > ~ $ \u00a9",
+            "business-10": {
+                "link": "https://transactions.sendowl.com/products/79204758/413C548D/add_to_cart",
+                "price": 100
             },
-            "business": {
-                "link": "https://transactions.sendowl.com/products/LLLLL/add_to_cart",
-                "price": 180
-            },
-            "enterprise": {
-                "link": "https://transactions.sendowl.com/products/MMMMM/add_to_cart",
+            "business-50": {
+                "link": "https://transactions.sendowl.com/products/79204759/CF27F0C1/add_to_cart",
                 "price": 270
+            },
+            "business-100": {
+                "link": "https://transactions.sendowl.com/products/79204760/543A722F/add_to_cart",
+                "price": 410
+            },
+            "business-500": {
+                "link": "https://transactions.sendowl.com/products/79204761/EADFE285/add_to_cart",
+                "price": 1080
+            },
+            "business-1000": {
+                "link": "https://transactions.sendowl.com/products/79204762/80CE0FC1/add_to_cart",
+                "price": 1640
             }
         },
         "Family": {
-            "label": "Family Package",
+            "label": "Family",
             "fontFile": null,
-            "glyphs": "Display: A \u00C0 \u00C1 \u00C2 \u00C3 \u00C4 \u00C5 B C \u00C7 \u010C D E \u00C8 \u00C9 \u00CA \u00CB \u011A F G H I \u00CC \u00CD \u00CE \u00CF J K L M N \u00D1 \u0147 O \u00D2 \u00D3 \u00D4 \u00D5 \u00D6 P Q R \u0158 S \u0160 T \u0164 U \u00D9 \u00DA \u00DB \u00DC \u016E V W X Y \u00DD Z \u017D A E \u00D0 \u00D8 \u00DE \u0152 a \u00E0 \u00E1 \u00E2 \u00E3 \u00E4 \u00E5 b c \u00E7 \u010D d \u0111 e \u00E8 \u00E9 \u00EA \u00EB \u011B f g h i \u00EC \u00ED \u00EE \u00EF j k l m n \u00F1 \u0148 o \u00F2 \u00F3 \u00F4 \u00F5 \u00F6 p q r \u0159 s \u0161 t \u0165 u \u00F9 \u00FA \u00FB \u00FC \u016F v w x y \u00FD \u00FF z \u017E \u00DF \u00E6 \u00F0 \u00F8 \u00FE \u0133 0 1 2 3 4 5 6 7 8 9 _ - \u2013 \u2014 \u0028 \u0029 \u005B \u005D \u007B \u007D \u0023 \u0025 \u0022 \u0027 \u2018 \u2019 \u201C \u201D \u2039 \u203A \u00AB \u00BB \u002A \u002E \u002C \u003A \u003B \u2026 \u0021 \u00A1 \u003F \u00BF \u002F \u002F \u005C \u007C \u0040 \u0026 \u00A7 \u00B6 \u00B7 \u2022 \u002B \u2212 \u00F7 \u00D7 \u003D \u003C \u003E \u25FC \u0024 \u00A2 \u00A3 \u00A5 \u20AC \u005E \u007E \u00B4 \u0060 \u02DD \u02C6 \u02C7 \u02D8 \u02DC \u00A8 \u02D9 \u02DA \u00B8 \u02DB \uFB00 \uFB01 \uFB02 \uFB03 \uFB04<br><br>Text: \u0041 \u0042 \u0043 \u0044 \u0045 \u0046 \u0047 \u0048 \u0049 \u004A \u004B \u004C \u004D \u004E \u004F \u0050 \u0051 \u0052 \u0053 \u0054 \u0055 \u0056 \u0057 \u0058 \u0059 \u005A \u0061 \u0062 \u0063 \u0064 \u0065 \u0066 \u0067 \u0068 \u0069 \u006A \u006B \u006C \u006D \u006E \u006F \u0070 \u0071 \u0072 \u0073 \u0074 \u0075 \u0076 \u0077 \u0078 \u0079 \u007A \u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039 \u005F \u002D \u2013 \u2014 \u0028 \u0029 \u005B \u005D \u007B \u007D \u0023 \u0025 \u0022 \u0027 \u2018 \u2019 \u201C \u201D \u002A \u002E \u002C \u003A \u003B \u2026 \u0021 \u003F \u002F \u002F \u007C \u0040 \u0026 \u2022 \u002B \u003D \u003C \u003E \u007E \u0024 \u00A9",
-            "small-business": {
-                "link": "https://transactions.sendowl.com/products/GGGGGG/add_to_cart",
-                "price": 150
+            "glyphs": "Display: A \u00c0 \u00c1 \u00c2 \u00c3 \u00c4 \u00c5 B C \u00c7 \u010c D E \u00c8 \u00c9 \u00ca \u00cb \u011a F G H I \u00cc \u00cd \u00ce \u00cf J K L M N \u00d1 \u0147 O \u00d2 \u00d3 \u00d4 \u00d5 \u00d6 P Q R \u0158 S \u0160 T \u0164 U \u00d9 \u00da \u00db \u00dc \u016e V W X Y \u00dd Z \u017d A E \u00d0 \u00d8 \u00de \u0152 a \u00e0 \u00e1 \u00e2 \u00e3 \u00e4 \u00e5 b c \u00e7 \u010d d \u0111 e \u00e8 \u00e9 \u00ea \u00eb \u011b f g h i \u00ec \u00ed \u00ee \u00ef j k l m n \u00f1 \u0148 o \u00f2 \u00f3 \u00f4 \u00f5 \u00f6 p q r \u0159 s \u0161 t \u0165 u \u00f9 \u00fa \u00fb \u00fc \u016f v w x y \u00fd \u00ff z \u017e \u00df \u00e6 \u00f0 \u00f8 \u00fe \u0133 0 1 2 3 4 5 6 7 8 9 _ - \u2013 \u2014 ( ) [ ] { } # % \" ' \u2018 \u2019 \u201c \u201d \u2039 \u203a \u00ab \u00bb * . , : ; \u2026 ! \u00a1 ? \u00bf / / \\ | @ & \u00a7 \u00b6 \u00b7 \u2022 + \u2212 \u00f7 \u00d7 = < > \u25fc $ \u00a2 \u00a3 \u00a5 \u20ac ^ ~ \u00b4 ` \u02dd \u02c6 \u02c7 \u02d8 \u02dc \u00a8 \u02d9 \u02da \u00b8 \u02db \ufb00 \ufb01 \ufb02 \ufb03 \ufb04<br><br>Text: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9 _ - \u2013 \u2014 ( ) [ ] { } # % \" ' \u2018 \u2019 \u201c \u201d * . , : ; \u2026 ! ? / / | @ & \u2022 + = < > ~ $ \u00a9",
+            "business-10": {
+                "link": "https://transactions.sendowl.com/products/79204767/C8EB8755/add_to_cart",
+                "price": 180
             },
-            "business": {
-                "link": "https://transactions.sendowl.com/products/HHHHHH/add_to_cart",
-                "price": 300
+            "business-50": {
+                "link": "https://transactions.sendowl.com/products/79204768/781FDE89/add_to_cart",
+                "price": 460
             },
-            "enterprise": {
-                "link": "https://transactions.sendowl.com/products/IIIIII/add_to_cart",
-                "price": 450
+            "business-100": {
+                "link": "https://transactions.sendowl.com/products/79204769/2FD88F60/add_to_cart",
+                "price": 700
+            },
+            "business-500": {
+                "link": "https://transactions.sendowl.com/products/79204770/5F695EC2/add_to_cart",
+                "price": 1830
+            },
+            "business-1000": {
+                "link": "https://transactions.sendowl.com/products/79204771/93F1B662/add_to_cart",
+                "price": 2780
             }
         },
         "infoLinks": {

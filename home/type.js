@@ -24,38 +24,48 @@ document.addEventListener('DOMContentLoaded', function() {
     document.head.appendChild(fontStyleElement);
 
     fetch('products.json')
-        .then(response => response.json())
-        .then(data => {
-            productData = data;
-            updateStyles();
-            updatePrice();
-            updateFont();
-            updateAddToCartLink();
-            updateInfoLinks();
-        });
-
-    function updateStyles() {
-        const typeface = typefaceSelect.value;
-        const styles = Object.keys(productData[typeface]).filter(key => !['fontFamily', 'infoLinks', 'glyphs'].includes(key));
-        styleSelect.innerHTML = styles.map(style => {
-            const styleData = productData[typeface][style];
-            const formattedStyle = styleData.label || style;
-            return `<option value="${style}">${formattedStyle}</option>`;
-        }).join('');
-        updateTiers();
-        toggleVariableControls();
-    }
-
-    function updateTiers() {
-        const typeface = typefaceSelect.value;
-        const style = styleSelect.value;
-        const tiers = Object.keys(productData[typeface][style]).filter(key => key !== 'label' && key !== 'fontFile' && key !== 'glyphs');
-        tierSelect.innerHTML = tiers.map(tier => {
-            const tierLabel = productData.licenses[tier].label;
-            return `<option value="${tier}">${tierLabel}</option>`;
-        }).join('');
+    .then(response => response.json())
+    .then(data => {
+        productData = data;
+        updateStyles();
         updatePrice();
-    }
+        updateFont();
+        updateAddToCartLink();
+        updateInfoLinks();
+    });
+
+
+        function updateStyles() {
+            const typeface = typefaceSelect.value;
+            if (productData[typeface]) {
+                const styles = Object.keys(productData[typeface]).filter(key => !['fontFamily', 'infoLinks', 'glyphs'].includes(key));
+                styleSelect.innerHTML = styles.map(style => {
+                    const styleData = productData[typeface][style];
+                    const formattedStyle = styleData.label || style;
+                    return `<option value="${style}">${formattedStyle}</option>`;
+                }).join('');
+            }
+            updateTiers();
+            toggleVariableControls();
+        }
+        
+
+
+        function updateTiers() {
+            const typeface = typefaceSelect.value;
+            const style = styleSelect.value;
+            if (productData[typeface] && productData[typeface][style]) {
+                const tiers = Object.keys(productData[typeface][style]).filter(key => key !== 'label' && key !== 'fontFile' && key !== 'glyphs');
+                tierSelect.innerHTML = tiers.map(tier => {
+                    const tierLabel = productData.licenses[tier].label;
+                    return `<option value="${tier}">${tierLabel}</option>`;
+                }).join('');
+            } else {
+                tierSelect.innerHTML = '';
+            }
+            updatePrice();
+        }
+        
 
     function updatePrice() {
         const typeface = typefaceSelect.value;
@@ -65,25 +75,40 @@ document.addEventListener('DOMContentLoaded', function() {
         addToCartBtn.textContent = `$${price}`;
     }
 
+    function loadFont(fontName, fontFile) {
+        const font = new FontFaceObserver(fontName);
+    
+        font.load().then(function() {
+            document.fonts.add(new FontFace(fontName, `url(${fontFile})`));
+            document.body.classList.add('fonts-loaded');
+        }).catch(function() {
+            console.error(`Failed to load font: ${fontName}`);
+        });
+    }
+
     function updateFont() {
         const typeface = typefaceSelect.value;
         const style = styleSelect.value;
-        const fontFamily = productData[typeface].fontFamily;
-        const fontFile = productData[typeface][style].fontFile;
-
-        if (fontFile) {
-            fontStyleElement.innerHTML = `
-                @font-face {
-                    font-family: '${fontFamily}';
-                    src: url('${fontFile}');
-                }
-            `;
-            editableBlock.style.fontFamily = fontFamily;
+        if (productData[typeface] && productData[typeface][style]) {
+            const fontFamily = productData[typeface].fontFamily;
+            const fontFile = productData[typeface][style].fontFile;
+        
+            if (fontFile) {
+                loadFont(fontFamily, fontFile);
+                fontStyleElement.innerHTML = `
+                    @font-face {
+                        font-family: '${fontFamily}';
+                        src: url('${fontFile}');
+                    }
+                `;
+                document.documentElement.style.setProperty('--current-font-family', fontFamily);
+                editableBlock.style.fontFamily = fontFamily;
+            }
+        
+            toggleVariableControls();
         }
-
-        toggleVariableControls();
     }
-
+    
     function toggleVariableControls() {
         const typeface = typefaceSelect.value;
         const style = styleSelect.value;
@@ -100,56 +125,63 @@ document.addEventListener('DOMContentLoaded', function() {
         const typeface = typefaceSelect.value;
         const style = styleSelect.value;
         const tier = tierSelect.value;
-        const link = productData[typeface][style][tier].link;
-        addToCartBtn.dataset.href = link;
+        if (productData[typeface] && productData[typeface][style] && productData[typeface][style][tier]) {
+            const link = productData[typeface][style][tier].link;
+            addToCartBtn.dataset.href = link;
+        } else {
+            addToCartBtn.dataset.href = '';
+        }
     }
-
+    
     function updateInfoLinks() {
         const typeface = typefaceSelect.value;
         const style = styleSelect.value;
-        const infoLinks = productData[typeface].infoLinks;
         const tier = tierSelect.value;
-        const licenseInfo = productData.licenses[tier];
-        const glyphs = productData[typeface][style].glyphs || productData[typeface].glyphs;
-        infoLinksContainer.innerHTML = '';
+        if (productData[typeface] && productData[typeface][style]) {
+            const infoLinks = productData[typeface].infoLinks;
+            const licenseInfo = productData.licenses[tier];
+            const glyphs = productData[typeface][style].glyphs || productData[typeface].glyphs;
+            infoLinksContainer.innerHTML = '';
+            
+            let hasInfo = false;
+            let linksArray = [];
         
-        let hasInfo = false;
-        let linksArray = [];
-    
-        // Add License button
-        if (licenseInfo) {
-            hasInfo = true;
-            linksArray.push({ text: 'License', action: openInfoModal });
-        }
-    
-        // Add Glyphs button
-        if (glyphs) {
-            hasInfo = true;
-            linksArray.push({ text: 'Glyphs', action: openGlyphsModal });
-        }
-    
-        // Add other info links
-        if (infoLinks) {
-            hasInfo = true;
-            Object.keys(infoLinks).forEach(label => {
-                linksArray.push({ text: label, action: () => window.open(infoLinks[label], '_blank') });
-            });
-        }
-    
-        // Append all links to the container
-        linksArray.forEach((link, index) => {
-            const button = document.createElement('button');
-            button.textContent = link.text;
-            button.onclick = link.action;
-            infoLinksContainer.appendChild(button);
-            if (index < linksArray.length - 1) {
-                const commaText = document.createTextNode(', ');
-                infoLinksContainer.appendChild(commaText);
+            // Add License button
+            if (licenseInfo) {
+                hasInfo = true;
+                linksArray.push({ text: 'License', action: openInfoModal });
             }
-        });
+        
+            // Add Glyphs button
+            if (glyphs) {
+                hasInfo = true;
+                linksArray.push({ text: 'Glyphs', action: openGlyphsModal });
+            }
+        
+            // Add other info links
+            if (infoLinks) {
+                hasInfo = true;
+                Object.keys(infoLinks).forEach(label => {
+                    linksArray.push({ text: label, action: () => window.open(infoLinks[label], '_blank') });
+                });
+            }
+        
+            // Append all links to the container
+            linksArray.forEach((link, index) => {
+                const button = document.createElement('button');
+                button.textContent = link.text;
+                button.onclick = link.action;
+                infoLinksContainer.appendChild(button);
+                if (index < linksArray.length - 1) {
+                    const commaText = document.createTextNode(', ');
+                    infoLinksContainer.appendChild(commaText);
+                }
+            });
+        
+            infoLinksLabel.style.display = hasInfo ? "inline" : "none";
+        }
+    }
     
-        infoLinksLabel.style.display = hasInfo ? "inline" : "none";
-    }    
 
     function openInfoModal() {
         const typeface = typefaceSelect.value;
@@ -200,14 +232,14 @@ document.addEventListener('DOMContentLoaded', function() {
         updateAddToCartLink();
         updateInfoLinks();
     });
-
+    
     styleSelect.addEventListener('change', () => {
         updateTiers();
         updateFont();
         updateAddToCartLink();
         updateInfoLinks();
     });
-
+    
     tierSelect.addEventListener('change', () => {
         updatePrice();
         updateAddToCartLink();

@@ -22,7 +22,7 @@
         },
         "WTFPL": {
             "label": "WTFPL",
-            "info": "WTFPL is a permissive free software license.<br><br>OpenType (.otf) and web (.woff2) font files are provided for:<ul><li>Non-commercial work</li><li>Personal projects</li><li>Free, open-source, peer-to-peer initiatives</li><li>Educational purposes</li><li>Academic research</li></ul>For commercial work, you are advised to license our other fonts under the appropriate business license. Read the full license agreement <a href='http://authentic.website/license/wtfpl.txt' target='_blank'>here</a>, visit <a href='http://www.wtfpl.net/' target='_blank'>wtfpl.net</a> for more information, and contact email@authentic.website with any questions."
+            "info": "WTFPL is a permissive free software license.<br><br>OpenType (.otf) and web (.woff2) font files are provided for:<ul><li>Non-commercial work</li><li>Personal projects</li><li>Free, open-source, peer-to-peer initiatives</li><li>Educational purposes</li><li>Academic research</li></ul>For commercial work, you are advised to license our other fonts under the appropriate business license.<br><br>Read the full license agreement <a href='http://authentic.website/license/wtfpl.txt' target='_blank'>here</a>, visit <a href='http://www.wtfpl.net/' target='_blank'>wtfpl.net</a> for more information, and contact email@authentic.website with any questions."
         }
     },
     "AuthenticSans": {

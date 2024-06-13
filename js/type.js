@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let fontStyleElement = document.createElement('style');
     document.head.appendChild(fontStyleElement);
 
-    fetch('products.json')
+    fetch('json/products.json')
     .then(response => response.json())
     .then(data => {
         productData = data;

@@ -47,7 +47,7 @@ let currentSVGIndex = 0;
 const leonardoTitleCard = "Leonardo da Vinci wrote that poetry is an image felt not seen, however, a poet who abandons true nature for fancy words is unable to make anyone feel";
 
 // Load SVG file names from the JSON file and shuffle them
-loadSVGFilesFromJSON('lettering.json').then(files => {
+loadSVGFilesFromJSON('json/lettering.json').then(files => {
     svgFiles = files;
     shuffleArray(svgFiles);
     leonardoFrame.innerHTML = `<p>${leonardoTitleCard}</p>`;  // Display the title card initially

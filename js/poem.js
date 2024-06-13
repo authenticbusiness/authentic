@@ -58,7 +58,7 @@ const widthMin = 80;
 const widthMax = 100;
 
 // Load sentences from the JSON file and shuffle them
-loadSentencesFromJSON('poems.json').then(data => {
+loadSentencesFromJSON('json/poems.json').then(data => {
     sentences = data;
     shuffleArray(sentences);
     paragraph.textContent = titleCard;  // Display the title card initially

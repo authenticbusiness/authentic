@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Authentic';
-    src: url('fonts/authentic-sans-pro-vf.ttf') format('truetype');
+    src: url('../fonts/authentic-sans-pro-vf.ttf') format('truetype');
     font-weight: 60 150 ;
     font-stretch: 80% 100%;
     font-style: normal;

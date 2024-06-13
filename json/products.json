@@ -2,27 +2,27 @@
     "licenses": {
         "business-10": {
             "label": "Business 10",
-            "info": "This license is suitable for companies with under 10 employees."
+            "info": "This license is suitable for commercial work by companies with up to 10 employees.<br><br>OpenType (.otf) and web (.woff2) font files are provided for:<ul><li>Desktop publishing (printed materials, packaging, logos, signage, ePub embedding)</li><li>One (1) website (self-hosted)</li><li>One (1) app or game</li></ul>Read the full license agreement <a href='http://authentic.website/license/authentic-business-10.txt' target='_blank'>here</a> and contact email@authentic.website with any questions."
         },
         "business-50": {
             "label": "Business 50",
-            "info": "This license is suitable for companies with under 50 employees."
+            "info": "This license is suitable for commercial work by companies with up to 50 employees.<br><br>OpenType (.otf) and web (.woff2) font files are provided for:<ul><li>Desktop publishing (printed materials, packaging, logos, signage, ePub embedding)</li><li>One (1) website (self-hosted)</li><li>One (1) app or game</li></ul>Read the full license agreement <a href='http://authentic.website/license/authentic-business-50.txt' target='_blank'>here</a> and contact email@authentic.website with any questions."
         },
         "business-100": {
             "label": "Business 100",
-            "info": "This license is suitable for companies with under 100 employees."
+            "info": "This license is suitable for commercial work by companies with up to 100 employees.<br><br>OpenType (.otf) and web (.woff2) font files are provided for:<ul><li>Desktop publishing (printed materials, packaging, logos, signage, ePub embedding)</li><li>One (1) website (self-hosted)</li><li>One (1) app or game</li></ul>Read the full license agreement <a href='http://authentic.website/license/authentic-business-100.txt' target='_blank'>here</a> and contact email@authentic.website with any questions."
         },
         "business-500": {
             "label": "Business 500",
-            "info": "This license is suitable for companies with under 500 employees."
+            "info": "This license is suitable for commercial work by companies with up to 500 employees.<br><br>OpenType (.otf) and web (.woff2) font files are provided for:<ul><li>Desktop publishing (printed materials, packaging, logos, signage, ePub embedding)</li><li>One (1) website (self-hosted)</li><li>One (1) app or game</li></ul>Read the full license agreement <a href='http://authentic.website/license/authentic-business-500.txt' target='_blank'>here</a> and contact email@authentic.website with any questions."
         },
         "business-1000": {
             "label": "Business 1000",
-            "info": "This license is suitable for companies with under 1000 employees."
+            "info": "This license is suitable for commercial work by companies with up to 1000 employees.<br><br>OpenType (.otf) and web (.woff2) font files are provided for:<ul><li>Desktop publishing (printed materials, packaging, logos, signage, ePub embedding)</li><li>One (1) website (self-hosted)</li><li>One (1) app or game</li></ul>Read the full license agreement <a href='http://authentic.website/license/authentic-business-1000.txt' target='_blank'>here</a> and contact email@authentic.website with any questions."
         },
         "WTFPL": {
-            "label": "WTFPL (Free)",
-            "info": "WTFPL is a permissive free software license.<br><br>More info can be found <a href='http://www.wtfpl.net/' target='_blank'>here</a>."
+            "label": "WTFPL",
+            "info": "WTFPL is a permissive free software license.<br><br>OpenType (.otf) and web (.woff2) font files are provided for:<ul><li>Non-commercial work</li><li>Personal projects</li><li>Free, open-source, peer-to-peer initiatives</li><li>Educational purposes</li><li>Academic research</li></ul>For commercial work, you are advised to license our other fonts under the appropriate business license. Read the full license agreement <a href='http://authentic.website/license/wtfpl.txt' target='_blank'>here</a>, visit <a href='http://www.wtfpl.net/' target='_blank'>wtfpl.net</a> for more information, and contact email@authentic.website with any questions."
         }
     },
     "AuthenticSans": {

@@ -34,56 +34,41 @@ document.addEventListener('DOMContentLoaded', function() {
         updateInfoLinks();
     });
 
-
-        function updateStyles() {
-            const typeface = typefaceSelect.value;
-            if (productData[typeface]) {
-                const styles = Object.keys(productData[typeface]).filter(key => !['fontFamily', 'infoLinks', 'glyphs'].includes(key));
-                styleSelect.innerHTML = styles.map(style => {
-                    const styleData = productData[typeface][style];
-                    const formattedStyle = styleData.label || style;
-                    return `<option value="${style}">${formattedStyle}</option>`;
-                }).join('');
-            }
-            updateTiers();
-            toggleVariableControls();
+    function updateStyles() {
+        const typeface = typefaceSelect.value;
+        if (productData[typeface]) {
+            const styles = Object.keys(productData[typeface]).filter(key => !['fontFamily', 'infoLinks', 'glyphs'].includes(key));
+            styleSelect.innerHTML = styles.map(style => {
+                const styleData = productData[typeface][style];
+                const formattedStyle = styleData.label || style;
+                return `<option value="${style}">${formattedStyle}</option>`;
+            }).join('');
         }
-        
-
-
-        function updateTiers() {
-            const typeface = typefaceSelect.value;
-            const style = styleSelect.value;
-            if (productData[typeface] && productData[typeface][style]) {
-                const tiers = Object.keys(productData[typeface][style]).filter(key => key !== 'label' && key !== 'fontFile' && key !== 'glyphs');
-                tierSelect.innerHTML = tiers.map(tier => {
-                    const tierLabel = productData.licenses[tier].label;
-                    return `<option value="${tier}">${tierLabel}</option>`;
-                }).join('');
-            } else {
-                tierSelect.innerHTML = '';
-            }
-            updatePrice();
+        updateTiers();
+        toggleVariableControls();
+    }
+    
+    function updateTiers() {
+        const typeface = typefaceSelect.value;
+        const style = styleSelect.value;
+        if (productData[typeface] && productData[typeface][style]) {
+            const tiers = Object.keys(productData[typeface][style]).filter(key => key !== 'label' && key !== 'fontFile' && key !== 'glyphs');
+            tierSelect.innerHTML = tiers.map(tier => {
+                const tierLabel = productData.licenses[tier].label;
+                return `<option value="${tier}">${tierLabel}</option>`;
+            }).join('');
+        } else {
+            tierSelect.innerHTML = '';
         }
-        
-
+        updatePrice();
+    }
+    
     function updatePrice() {
         const typeface = typefaceSelect.value;
         const style = styleSelect.value;
         const tier = tierSelect.value;
         const price = productData[typeface][style][tier].price;
         addToCartBtn.textContent = `$${price}`;
-    }
-
-    function loadFont(fontName, fontFile) {
-        const font = new FontFaceObserver(fontName);
-    
-        font.load().then(function() {
-            document.fonts.add(new FontFace(fontName, `url(${fontFile})`));
-            document.body.classList.add('fonts-loaded');
-        }).catch(function() {
-            console.error(`Failed to load font: ${fontName}`);
-        });
     }
 
     function updateFont() {
@@ -94,7 +79,6 @@ document.addEventListener('DOMContentLoaded', function() {
             const fontFile = productData[typeface][style].fontFile;
         
             if (fontFile) {
-                loadFont(fontFamily, fontFile);
                 fontStyleElement.innerHTML = `
                     @font-face {
                         font-family: '${fontFamily}';
@@ -182,7 +166,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     
-
     function openInfoModal() {
         const typeface = typefaceSelect.value;
         const tier = tierSelect.value;

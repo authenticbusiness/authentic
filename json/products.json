@@ -18,7 +18,7 @@
         },
         "business-1000": {
             "label": "Business 1000",
-            "info": "This license is suitable for commercial work by companies with up to 1000 employees.<br><br>OpenType (.otf) and web (.woff2) font files are provided for:<ul><li>Desktop publishing (printed materials, packaging, logos, signage, ePub embedding)</li><li>One (1) website (self-hosted)</li><li>One (1) app or game</li></ul>Read the full license agreement <a href='http://authentic.website/license/authentic-business-1000.txt' target='_blank'>here</a> and contact email@authentic.website with any questions."
+            "info": "This license is suitable for commercial work by companies with up to 1000 employees.<br><br>OpenType (.otf) and web (.woff2) font files are provided for:<ul><li>Desktop publishing (printed materials, packaging, logos, signage, ePub embedding)</li><li>One (1) website (self-hosted)</li><li>One (1) app or game</li></ul>Read the full license agreement <a href='http://authentic.website/license/authentic-business-1000.txt' target='_blank'>here</a>.<br><br>For companies with over 1000 employees, please contact us: email@authentic.website"
         },
         "WTFPL": {
             "label": "WTFPL",
@@ -29,7 +29,7 @@
         "fontFamily": "Authentic Sans",
         "glyphs": "A \u00c0 \u00c1 \u00c3 \u00c4 B C \u00c7 D E \u00c8 \u00c9 \u00cb F G H I \u00cc \u00cd \u00cf \u0128 J K L M N \u00d1 \u0143 O \u00d2 \u00d3 \u00d5 \u00d6 P Q R S T U \u00d9 \u00da \u00dc \u0168 V W X Y \u00dd \u0178 \u1ef2 Z \u00d8 \u0132 a \u00e0 \u00e1 \u00e3 \u00e4 b c \u00e7 d e \u00e8 \u00e9 \u00eb f g h i \u00ec \u00ed \u00ef \u0129 j k l m n \u00f1 \u0144 o \u00f2 \u00f3 \u00f5 \u00f6 p q r s t u \u00f9 \u00fa \u00fc \u0169 v w x y \u00fd \u00ff \u1ef3 z \u00f8 \u0133 \u0133 \u0237 0 1 2 3 4 5 6 7 8 9 _ - \u2013 \u2014 ( ) [ ] { } # % \" ' \u2018 \u2019 \u201c \u201d * . , : ; \u2026 ! \u00a1 ? \u00bf / / | @ & \u2022 + = < > ~ $ \u00b4 ` \u02dc \u00a8 \u00b8 \u00a9 &#x1F12F;",
         "60": {
-            "label": "60",
+            "label": "60 (1 style)",
             "fontFile": "fonts/authentic-sans-60.woff2",
             "WTFPL": {
                 "link": "https://transactions.sendowl.com/products/79204618/CB2535BD/add_to_cart",
@@ -37,7 +37,7 @@
             }
         },
         "90": {
-            "label": "90",
+            "label": "90 (1 style)",
             "fontFile": "fonts/authentic-sans-90.woff2",
             "WTFPL": {
                 "link": "https://transactions.sendowl.com/products/79204624/1D941653/add_to_cart",
@@ -45,7 +45,7 @@
             }
         },
         "130": {
-            "label": "130",
+            "label": "130 (1 style)",
             "fontFile": "fonts/authentic-sans-130.woff2",
             "WTFPL": {
                 "link": "https://transactions.sendowl.com/products/79204630/75520BD1/add_to_cart",
@@ -53,7 +53,7 @@
             }
         },
         "150": {
-            "label": "150",
+            "label": "150 (1 style)",
             "fontFile": "fonts/authentic-sans-150.woff2",
             "WTFPL": {
                 "link": "https://transactions.sendowl.com/products/79204636/9D27C85F/add_to_cart",
@@ -61,7 +61,7 @@
             }
         },
         "Condensed60": {
-            "label": "Condensed 60",
+            "label": "Condensed 60 (1 style)",
             "fontFile": "fonts/authentic-sans-condensed-60.woff2",
             "WTFPL": {
                 "link": "https://transactions.sendowl.com/products/79204642/4276D6C8/add_to_cart",
@@ -69,7 +69,7 @@
             }
         },
         "Condensed90": {
-            "label": "Condensed 90",
+            "label": "Condensed 90 (1 style)",
             "fontFile": "fonts/authentic-sans-condensed-90.woff2",
             "WTFPL": {
                 "link": "https://transactions.sendowl.com/products/79204648/950ADF72/add_to_cart",
@@ -77,7 +77,7 @@
             }
         },
         "Condensed130": {
-            "label": "Condensed 130",
+            "label": "Condensed 130 (1 style)",
             "fontFile": "fonts/authentic-sans-condensed-130.woff2",
             "WTFPL": {
                 "link": "https://transactions.sendowl.com/products/79204654/9690CCDE/add_to_cart",
@@ -85,7 +85,7 @@
             }
         },
         "Condensed150": {
-            "label": "Condensed 150",
+            "label": "Condensed 150 (1 style)",
             "fontFile": "fonts/authentic-sans-condensed-150.woff2",
             "WTFPL": {
                 "link": "https://transactions.sendowl.com/products/79204660/0748E68C/add_to_cart",
@@ -93,7 +93,7 @@
             }
         },
         "Family": {
-            "label": "Family",
+            "label": "Family (8 styles)",
             "fontFile": null,
             "WTFPL": {
                 "link": "https://transactions.sendowl.com/products/77987752/082A2418/add_to_cart",
@@ -110,7 +110,7 @@
         "fontFamily": "Authentic Sans Pro",
         "glyphs": "A \u00c0 \u00c1 \u00c2 \u00c3 \u00c4 \u00c5 \u0100 \u0102 \u0104 B \u1e02 C \u00c7 \u0106 \u010a \u010c D \u1e0a E \u00c8 \u00c9 \u00ca \u00cb \u0112 \u0114 \u0118 F \u1e1e G \u011e \u0120 H I \u00cc \u00cd \u00ce \u00cf \u0128 \u012a \u012c \u0130 J K L M \u1e40 N \u00d1 \u0143 O \u00d2 \u00d3 \u00d4 \u00d5 \u00d6 \u014c \u014e \u0150 P \u1e56 Q R \u0158 S \u015a \u015e \u0160 \u0218 \u1e60 T \u0162 \u021a \u1e6a U \u00d9 \u00da \u00db \u00dc \u0168 \u016a \u016c \u0170 \u01d3 V W X Y \u00dd \u0178 \u1ef2 Z \u0179 \u017b \u017d \u00c6 \u00d0 \u00d8 \u00de \u0110 \u0132 \u013f \u0141 \u0152 \u1e9e a \u00e0 \u00e1 \u00e2 \u00e3 \u00e4 \u00e5 \u0101 \u0103 \u0105 b \u1e03 c \u00e7 \u0107 \u0109 \u010b \u010d d \u1e0b e \u00e8 \u00e9 \u00ea \u00eb \u0113 \u0115 \u0119 f \u1e1f g \u011f \u0121 h i \u00ec \u00ed \u00ee \u00ef \u0129 \u012b \u012d j k l m \u1e41 n \u00f1 \u0144 \u0148 o \u00f2 \u00f3 \u00f4 \u00f5 \u00f6 \u014d \u014f \u0151 p \u1e57 q r \u0159 s \u015b \u015f \u0161 \u0219 \u1e61 t \u0163 \u021b \u1e6b u \u00f9 \u00fa \u00fb \u00fc \u0169 \u016b \u016d \u0171 \u01d4 v w x y \u00fd \u00ff \u1ef3 z \u017a \u017c \u017e \u00df \u00e6 \u00f0 \u00f8 \u00fe \u0111 \u0133 \u0133 \u0237 \u00aa \u00ba 0 1 2 3 4 5 6 7 8 9 _ - \u2010 \u2013 \u2014 ( ) [ ] { } # % \" ' \u2018 \u2019 \u201c \u201d \u201a \u201e \u00ab \u00bb * . , : ; \u2026 ! \u00a1 ? \u00bf / / | @ & \u2022 + = < > ~ $ \u00b4 ` \u02c6 \u02c7 \u02d8 \u02dc \u00af \u00a8 \u02d9 \u02da \u00b8 \u02db \u00a9 \u00ae \u00b0 &#x1F12F; \u00b9 \u00b2 \u00b3",
         "60": {
-            "label": "60",
+            "label": "60 (1 style)",
             "fontFile": "fonts/authentic-sans-pro-60.woff2",
             "business-10": {
                 "link": "https://transactions.sendowl.com/products/79204667/4CBD5599/add_to_cart",
@@ -134,7 +134,7 @@
             }
         },
         "90": {
-            "label": "90",
+            "label": "90 (1 style)",
             "fontFile": "fonts/authentic-sans-pro-90.woff2",
             "business-10": {
                 "link": "https://transactions.sendowl.com/products/79204673/424E2443/add_to_cart",
@@ -158,7 +158,7 @@
             }
         },
         "130": {
-            "label": "130",
+            "label": "130 (1 style)",
             "fontFile": "fonts/authentic-sans-pro-130.woff2",
             "business-10": {
                 "link": "https://transactions.sendowl.com/products/79204679/60CC6250/add_to_cart",
@@ -182,7 +182,7 @@
             }
         },
         "150": {
-            "label": "150",
+            "label": "150 (1 style)",
             "fontFile": "fonts/authentic-sans-pro-150.woff2",
             "business-10": {
                 "link": "https://transactions.sendowl.com/products/79204685/E0952C72/add_to_cart",
@@ -206,7 +206,7 @@
             }
         },
         "Condensed60": {
-            "label": "Condensed 60",
+            "label": "Condensed 60 (1 style)",
             "fontFile": "fonts/authentic-sans-pro-condensed-60.woff2",
             "business-10": {
                 "link": "https://transactions.sendowl.com/products/79204691/CF26EC32/add_to_cart",
@@ -230,7 +230,7 @@
             }
         },
         "Condensed90": {
-            "label": "Condensed 90",
+            "label": "Condensed 90 (1 style)",
             "fontFile": "fonts/authentic-sans-pro-condensed-90.woff2",
             "business-10": {
                 "link": "https://transactions.sendowl.com/products/79204697/F4E4DC74/add_to_cart",
@@ -254,7 +254,7 @@
             }
         },
         "Condensed130": {
-            "label": "Condensed 130",
+            "label": "Condensed 130 (1 style)",
             "fontFile": "fonts/authentic-sans-pro-condensed-130.woff2",
             "business-10": {
                 "link": "https://transactions.sendowl.com/products/79204703/7EC2C95E/add_to_cart",
@@ -278,7 +278,7 @@
             }
         },
         "Condensed150": {
-            "label": "Condensed 150",
+            "label": "Condensed 150 (1 style)",
             "fontFile": "fonts/authentic-sans-pro-condensed-150.woff2",
             "business-10": {
                 "link": "https://transactions.sendowl.com/products/79204709/73B3E494/add_to_cart",
@@ -302,7 +302,7 @@
             }
         },
         "RegularFamily": {
-            "label": "Regular Family",
+            "label": "Regular Family (4 styles)",
             "fontFile": null,
             "business-10": {
                 "link": "https://transactions.sendowl.com/products/79204715/33CFAB0F/add_to_cart",
@@ -326,7 +326,7 @@
             }
         },
         "CondensedFamily": {
-            "label": "Condensed Family",
+            "label": "Condensed Family (4 styles)",
             "fontFile": null,
             "business-10": {
                 "link": "https://transactions.sendowl.com/products/79204721/80395429/add_to_cart",
@@ -350,7 +350,7 @@
             }
         },
         "Family": {
-            "label": "Family",
+            "label": "Family (8 styles)",
             "fontFile": null,
             "business-10": {
                 "link": "https://transactions.sendowl.com/products/79204727/53508B15/add_to_cart",
@@ -374,7 +374,7 @@
             }
         },
         "Variable": {
-            "label": "Variable Font",
+            "label": "Variable Font (2 axes)",
             "fontFile": "fonts/authentic-sans-pro-vf.ttf",
             "business-10": {
                 "link": "https://transactions.sendowl.com/products/79204733/79F7E50B/add_to_cart",
@@ -407,7 +407,7 @@
         "fontFamily": "Chinatown",
         "glyphs": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9 - . !",
         "Regular": {
-            "label": "Regular",
+            "label": "Regular (1 style)",
             "fontFile": "fonts/chinatown-regular.woff2",
             "business-10": {
                 "link": "https://transactions.sendowl.com/products/79204739/8D12227D/add_to_cart",
@@ -438,7 +438,7 @@
         "fontFamily": "Classified",
         "glyphs": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9 _ - \u2013 \u2014 ( ) [ ] # ' \" \u2018 \u2019 \u201c \u201d * . , : ; ! ? / / | @ & + = $ \u00a9",
         "Regular": {
-            "label": "Regular",
+            "label": "Regular (1 style)",
             "fontFile": "fonts/classified-regular.woff2",
             "business-10": {
                 "link": "https://transactions.sendowl.com/products/79204745/6D9ED1B4/add_to_cart",
@@ -469,7 +469,7 @@
         "fontFamily": "Untitled",
         "glyphs": "A \u00c0 \u00c1 \u00c2 \u00c3 \u00c4 \u00c5 B C \u00c7 \u010c D E \u00c8 \u00c9 \u00ca \u00cb \u011a F G H I \u00cc \u00cd \u00ce \u00cf J K L M N \u00d1 \u0147 O \u00d2 \u00d3 \u00d4 \u00d5 \u00d6 P Q R \u0158 S \u0160 T \u0164 U \u00d9 \u00da \u00db \u00dc \u016e V W X Y \u00dd Z \u017d A E \u00d0 \u00d8 \u00de \u0152 a \u00e0 \u00e1 \u00e2 \u00e3 \u00e4 \u00e5 b c \u00e7 \u010d d \u0111 e \u00e8 \u00e9 \u00ea \u00eb \u011b f g h i \u00ec \u00ed \u00ee \u00ef j k l m n \u00f1 \u0148 o \u00f2 \u00f3 \u00f4 \u00f5 \u00f6 p q r \u0159 s \u0161 t \u0165 u \u00f9 \u00fa \u00fb \u00fc \u016f v w x y \u00fd \u00ff z \u017e \u00df \u00e6 \u00f0 \u00f8 \u00fe \u0133 0 1 2 3 4 5 6 7 8 9 _ - \u2013 \u2014 ( ) [ ] { } # % \" ' \u2018 \u2019 \u201c \u201d \u2039 \u203a \u00ab \u00bb * . , : ; \u2026 ! \u00a1 ? \u00bf / / \\ | @ & \u00a7 \u00b6 \u00b7 \u2022 + \u2212 \u00f7 \u00d7 = < > \u25fc $ \u00a2 \u00a3 \u00a5 \u20ac ^ ~ \u00b4 ` \u02dd \u02c6 \u02c7 \u02d8 \u02dc \u00a8 \u02d9 \u02da \u00b8 \u02db \ufb00 \ufb01 \ufb02 \ufb03 \ufb04",
         "Display": {
-            "label": "Display",
+            "label": "Display (1 style)",
             "fontFile": "fonts/untitled-display.woff2",
             "business-10": {
                 "link": "https://transactions.sendowl.com/products/79204751/AC762BEF/add_to_cart",
@@ -493,7 +493,7 @@
             }
         },
         "Text": {
-            "label": "Text",
+            "label": "Text (1 style)",
             "fontFile": "fonts/untitled-text.woff2",
             "glyphs": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9 _ - \u2013 \u2014 ( ) [ ] { } # % \" ' \u2018 \u2019 \u201c \u201d * . , : ; \u2026 ! ? / / | @ & \u2022 + = < > ~ $ \u00a9",
             "business-10": {
@@ -518,7 +518,7 @@
             }
         },
         "Family": {
-            "label": "Family",
+            "label": "Family (2 styles)",
             "fontFile": null,
             "glyphs": "Display: A \u00c0 \u00c1 \u00c2 \u00c3 \u00c4 \u00c5 B C \u00c7 \u010c D E \u00c8 \u00c9 \u00ca \u00cb \u011a F G H I \u00cc \u00cd \u00ce \u00cf J K L M N \u00d1 \u0147 O \u00d2 \u00d3 \u00d4 \u00d5 \u00d6 P Q R \u0158 S \u0160 T \u0164 U \u00d9 \u00da \u00db \u00dc \u016e V W X Y \u00dd Z \u017d A E \u00d0 \u00d8 \u00de \u0152 a \u00e0 \u00e1 \u00e2 \u00e3 \u00e4 \u00e5 b c \u00e7 \u010d d \u0111 e \u00e8 \u00e9 \u00ea \u00eb \u011b f g h i \u00ec \u00ed \u00ee \u00ef j k l m n \u00f1 \u0148 o \u00f2 \u00f3 \u00f4 \u00f5 \u00f6 p q r \u0159 s \u0161 t \u0165 u \u00f9 \u00fa \u00fb \u00fc \u016f v w x y \u00fd \u00ff z \u017e \u00df \u00e6 \u00f0 \u00f8 \u00fe \u0133 0 1 2 3 4 5 6 7 8 9 _ - \u2013 \u2014 ( ) [ ] { } # % \" ' \u2018 \u2019 \u201c \u201d \u2039 \u203a \u00ab \u00bb * . , : ; \u2026 ! \u00a1 ? \u00bf / / \\ | @ & \u00a7 \u00b6 \u00b7 \u2022 + \u2212 \u00f7 \u00d7 = < > \u25fc $ \u00a2 \u00a3 \u00a5 \u20ac ^ ~ \u00b4 ` \u02dd \u02c6 \u02c7 \u02d8 \u02dc \u00a8 \u02d9 \u02da \u00b8 \u02db \ufb00 \ufb01 \ufb02 \ufb03 \ufb04<br><br>Text: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9 _ - \u2013 \u2014 ( ) [ ] { } # % \" ' \u2018 \u2019 \u201c \u201d * . , : ; \u2026 ! ? / / | @ & \u2022 + = < > ~ $ \u00a9",
             "business-10": {

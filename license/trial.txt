@@ -1,0 +1,55 @@
+AUTHENTIC BUSINESS COMPANY LLC
+
+---
+
+LICENSE: AUTHENTIC TRIAL
+FONT SOFTWARE: Static instance(s), web font file(s), or variable font(s) for one (1) AUTHENTIC typeface  
+OFFICE: Company or organization with any number of employees, contractors, contributors, or collaborators  
+BUSINESS: Commercial for-profit products, marketing materials, and services  
+
+---
+
+1. By downloading or using this FONT SOFTWARE, you agree to this End User License Agreement between you and AUTHENTIC BUSINESS COMPANY LLC.
+
+2. FONT SOFTWARE may not be copied, disassembled, manipulated, altered, given away, redistributed, or resold.
+
+3. LICENSE is only valid within the OFFICE location and computer network. Usage of the FONT SOFTWARE outside of the OFFICE network will require additional licensing.
+
+4. LICENSE is only valid for the purposes of testing and client approval as outlined in sections 5 and 6.
+
+5. LICENSE includes desktop use: Users may install FONT SOFTWARE on OFFICE computers to design sample printed materials, packaging, logos, images, signage, and for ePub embedding for evaluation purposes only.
+
+6. LICENSE includes one (1) website use: You may host the FONT SOFTWARE on your website and use them with @font-face CSS for testing purposes. You may also use the FONT SOFTWARE in dynamic web-advertising and/or email marketing for evaluation only. AUTHENTIC does not offer a font hosting service.
+
+7. LICENSE does not include app/game use, broadcast (film, television, webcast) use, or any other commercial use.
+
+8. Full versions of the FONT SOFTWARE will need to be licensed with an appropriate BUSINESS license if the typeface is used for any commercial work. Visit https://authentic.website or contact email@authentic.website with any licensing inquiries. 
+
+9. AUTHENTIC BUSINESS COMPANY LLC reserves the right to amend or modify this LICENSE at any time without prior notice to you.
+
+10. This LICENSE shall be governed by and construed in accordance with the laws of the State of New York, without regard to its conflict of law principles.
+
+11. In no event shall AUTHENTIC BUSINESS COMPANY LLC be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with this LICENSE.
+
+12. This FONT SOFTWARE is provided "as is," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, or non-infringement.
+
+13. You agree to indemnify, defend, and hold harmless AUTHENTIC BUSINESS COMPANY LLC from any claims, damages, liabilities, costs, and expenses arising from your use of the FONT SOFTWARE.
+
+14. This LICENSE may be terminated by AUTHENTIC BUSINESS COMPANY LLC if you fail to comply with any term or condition herein. Upon termination, you must cease all use of the FONT SOFTWARE and destroy all copies.
+
+15. Users are permitted to make backup copies of the FONT SOFTWARE for archival purposes only, provided they remain within the OFFICE location or computer network.
+
+16. This LICENSE only includes the version of the FONT SOFTWARE you licensed at the time of receipt. Updates and upgrades to the FONT SOFTWARE may be provided at the discretion of AUTHENTIC BUSINESS COMPANY LLC and may not be free of charge. Future versions of the FONT SOFTWARE may require additional licensing.
+
+17. Users must comply with all applicable laws and regulations when using the FONT SOFTWARE.
+
+18. AUTHENTIC BUSINESS COMPANY LLC does not provide support and maintenance services for the FONT SOFTWARE under this LICENSE.
+
+19. This LICENSE does not include a refund policy.
+
+---
+
+https://authentic.website/license/trial.txt
+
+v.240620
+NEW YORK

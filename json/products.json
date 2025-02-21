@@ -400,20 +400,6 @@
                 "link": "https://transactions.sendowl.com/products/79204737/32A9FDCE/add_to_cart",
                 "price": 11860
             }
-        },
-        "Trial": {
-            "label": "Trial (8 styles)",
-            "fontFile": null,
-            "glyphs": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9 \u002E \u002C \u002D",
-            "trial": {
-                "link": "https://transactions.sendowl.com/products/79208106/DE289780/add_to_cart",
-                "price": 0
-            }
-        },
-        "infoLinks": {
-            "Website": "https://authentic.website/sanspro",
-            "Are.na": "https://www.are.na/authentic/foundry-authentic-sans-pro",
-            "Fonts In Use": "https://fontsinuse.com/typefaces/3766/authentic-sans"
         }
     },
     "Chinatown": {
@@ -441,15 +427,6 @@
             "business-1000": {
                 "link": "https://transactions.sendowl.com/products/79204743/17B42329/add_to_cart",
                 "price": 1640
-            }
-        },
-        "Trial": {
-            "label": "Trial (1 style)",
-            "fontFile": null,
-            "glyphs": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9 \u002E \u002C \u002D",
-            "trial": {
-                "link": "https://transactions.sendowl.com/products/79208109/0838B69A/add_to_cart",
-                "price": 0
             }
         },
         "infoLinks": {
@@ -481,15 +458,6 @@
             "business-1000": {
                 "link": "https://transactions.sendowl.com/products/79204749/5AB48B77/add_to_cart",
                 "price": 1640
-            }
-        },
-        "Trial": {
-            "label": "Trial (1 style)",
-            "fontFile": null,
-            "glyphs": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9 \u002E \u002C \u002D",
-            "trial": {
-                "link": "https://transactions.sendowl.com/products/79208110/6DFB0032/add_to_cart",
-                "price": 0
             }
         },
         "infoLinks": {
@@ -571,15 +539,6 @@
             "business-1000": {
                 "link": "https://transactions.sendowl.com/products/79204771/93F1B662/add_to_cart",
                 "price": 2780
-            }
-        },
-        "Trial": {
-            "label": "Trial (2 styles)",
-            "fontFile": null,
-            "glyphs": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9 \u002E \u002C \u002D",
-            "trial": {
-                "link": "https://transactions.sendowl.com/products/79208107/823D09CE/add_to_cart",
-                "price": 0
             }
         },
         "infoLinks": {
